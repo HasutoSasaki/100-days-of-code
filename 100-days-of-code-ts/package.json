@@ -1,0 +1,21 @@
+{
+    "name": "100-days-of-code-ts",
+    "version": "1.0.0",
+    "description": "100 Days of Code Challenge with TypeScript",
+    "scripts": {
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "build": "tsc",
+        "build:watch": "tsc --watch",
+        "new-challenge": "cp -r src/challenges/template src/challenges/day"
+    },
+    "devDependencies": {
+        "@types/node": "^18.15.11",
+        "typescript": "^5.0.4",
+        "vitest": "^0.34.6"
+    },
+    "main": "index.js",
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
