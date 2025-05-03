@@ -15,3 +15,21 @@
 - [chibivue の学習(reactive)](https://github.com/HasutoSasaki/chibivue-fork/commit/762e96ce788fc8c0d90188d43e5ae8d8608df2d1)
 
 ---
+
+### Day 2: May 3, Saturday
+
+**Today's Progress**: 回文チェッカーを実装し、単体テストを作成しました。
+
+**Thoughts**:
+
+- 普段の実装で使うことはないが、新しいアルゴリズムを学べてよかった。
+
+**Link(s) to work**:
+
+- [Day 2 challenge](/src/challenges/day002)
+
+**other**:
+
+- node.js event loop の理解
+  macrotask の前に、maicrotask が実行されることを理解した。
+  [参考記事](http://builder.io/blog/visual-guide-to-nodejs-event-loop)
