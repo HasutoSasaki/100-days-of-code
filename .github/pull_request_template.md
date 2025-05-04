@@ -1,6 +1,10 @@
 # Pull Request Summary
 
+Day ◯ functionality implemented
+
 ## Changes
+
+implemented ◯ functionality
 
 ## Checklist
 
