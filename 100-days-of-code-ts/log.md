@@ -33,3 +33,20 @@
 - node.js event loop の理解
   macrotask の前に、maicrotask が実行されることを理解した。
   [参考記事](http://builder.io/blog/visual-guide-to-nodejs-event-loop)
+
+---
+
+### Day 3: May 4, Sunday
+
+**Today's Progress**: 配列操作のユーティリティ関数を実装し、単体テストを作成しました。
+
+**Thoughts**:
+
+- 配列操作苦手だけど、必要性を感じた
+- new Set() を使うことで、重複を排除できることを学んだ
+- これからは、より効率的なデータ処理を目指していきたい
+
+**Link(s) to work**:
+
+- [Day 3 challenge](/src/challenges/day003)
+- [chibivue 仮想 DOM 実装](https://github.com/HasutoSasaki/chibivue-fork/commit/86ae25498a38bc1e5ae7689a8986430324222eea)
