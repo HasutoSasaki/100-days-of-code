@@ -50,3 +50,25 @@
 
 - [Day 3 challenge](/src/challenges/day003)
 - [chibivue 仮想 DOM 実装](https://github.com/HasutoSasaki/chibivue-fork/commit/86ae25498a38bc1e5ae7689a8986430324222eea)
+
+### Day 4: May 5, Monday
+
+**Today's Progress**: Object 操作とディープクローンのユーティリティ関数を実装
+
+**Thoughts**:
+
+- Object の操作も苦手なのだが勉強になった。
+- Object の型指定にいつも苦戦するので、少しずつ慣れていきたい。
+- ディープクローンの実装は、難しかったが、大まか理解できた。
+  → ただ、prototype 汚染については、まだ理解できていないので、調べてみる。
+- これからは、より効率的なデータ処理を目指していきたい
+
+**Link(s) to work**:
+
+- [Day 4 challenge](/src/challenges/day004)
+
+**other**:
+
+- モバイルアプリ開発を進めた。
+  成果：ピンチイン、ピンチアウトの実装
+  ※private repository のため、リンクはなし
