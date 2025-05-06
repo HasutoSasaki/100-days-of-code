@@ -89,3 +89,21 @@
 
 - [Day 5 challenge](/src/challenges/day005)
   理解も含めて、普通に１時間以上かかった
+
+### Day 6: May 7, Wednesday
+
+**Today's Progress**: 関数型プログラミングのユーティリティ関数を実装
+**Thoughts**:
+
+- 普段使う機会がないので、全て難しく感じた。
+- 処理の内容は大まか理解できた。しかし、型エラーを回避できていないので、きちんと理解できていない。
+- memorize や pipe は実務で使う機会があるかもしれないと感じた（見る機会があるかも。
+- 全て初見だったので、このようなものがあるということを知れたのは良かった。
+
+**Link(s) to work**:
+
+- [Day 6 challenge](/src/challenges/day006)
+
+**todo**:
+
+- test で型エラーが出ているので、index.ts の型を修正する
