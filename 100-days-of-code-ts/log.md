@@ -107,3 +107,19 @@
 **todo**:
 
 - test で型エラーが出ているので、index.ts の型を修正する
+
+### Day 7: May 8, Thursday
+
+**Today's Progress**: シンプルなイベントエミッターを実装
+**Thoughts**:
+
+- 普段使う機会がないので、新鮮だった。
+- イベントエミッターの実装は、考え方や概念は簡単なため、早めに理解できた。
+- コードを理解する際に、上からではなく見出し（型定義）など上のレイヤーから、観察することで、理解が早まることを実感した。
+
+**Link(s) to work**:
+
+- [Day 7 challenge](/src/challenges/day007)
+
+**other**:
+java の学習のため、環境構築（vscode + java）
