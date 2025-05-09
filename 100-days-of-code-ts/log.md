@@ -123,3 +123,16 @@
 
 **other**:
 java の学習のため、環境構築（vscode + java）
+
+### Day 8: May 9, Friday
+
+**Today's Progress**: ファイル操作のユーティリティ関数を実装
+**Thoughts**:
+
+- ファイル操作は、普段使うとしてもシンプルなものだけなので、難しかった
+- FileWatcher,LineReader ,createFileProcessor はまだ理解できていないので、調べてみる
+- まだまだコードを読む力や Node.js の理解が足りないので、もっと学習していきたい
+
+**Link(s) to work**:
+
+- [Day 8 challenge](/src/challenges/day008)
