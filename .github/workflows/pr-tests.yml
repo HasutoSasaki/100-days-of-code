@@ -34,9 +34,6 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install coverage dependencies
-        run: npm install -D @vitest/coverage-v8
-
       - name: Run Vitest
         run: npx vitest run --coverage
 
