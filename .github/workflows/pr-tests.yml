@@ -7,7 +7,7 @@ on:
       - master
 
 env:
-  WORKING_DIRECTORY: application
+  WORKING_DIRECTORY: 100-days-of-code-ts
 
 jobs:
   test:
