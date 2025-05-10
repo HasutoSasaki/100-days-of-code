@@ -18,7 +18,7 @@ jobs:
       &&  !startsWith(github.head_ref, 'doc')
     runs-on: ubuntu-latest
     defaults:
-      runs:
+      run:
         working-directory: ${{ env.WORKING_DIRECTORY }}
     steps:
       - name: Checkout
