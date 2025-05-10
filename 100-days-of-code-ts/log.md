@@ -136,3 +136,22 @@ java の学習のため、環境構築（vscode + java）
 **Link(s) to work**:
 
 - [Day 8 challenge](/src/challenges/day008)
+
+### Day 9: May 10, Saturday
+
+**Today's Progress**:
+
+- バリデーションライブラリを実装
+- github actions で Vitest を使った自動テストを実装
+
+**Thoughts**:
+
+- バリデーションライブラリは、普段使う機会があるので、実装できてよかった。
+- 実務では、zod を使うことが多いので、zod の実装を理解するために、zod のソースコードを読もうと思った。
+- バリデーションライブラリの仕組みを理解できた気がします
+- github actions をもっと勉強したい
+
+**Link(s) to work**:
+
+- [Day 9 challenge](/src/challenges/day009)
+- [github actions](.github/workflows/pr-tests.yml)
