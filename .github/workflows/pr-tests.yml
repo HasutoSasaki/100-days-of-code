@@ -23,16 +23,23 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version-file: ${{ env.WORKING_DIRECTORY }}/package.json
           cache: "npm"
           cache-dependency-path: "**/package-lock.json"
+
       - name: Install dependencies
         run: npm ci
+
+      - name: Install coverage dependencies
+        run: npm install -D @vitest/coverage-v8
+
       - name: Run Vitest
-        run: npx vitest --coverage.enabled true
+        run: npx vitest run --coverage
+
       - name: Show coverage
         uses: davelosert/vitest-coverage-report-action@v2
         with:
