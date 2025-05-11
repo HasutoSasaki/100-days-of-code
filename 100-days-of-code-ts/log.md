@@ -171,3 +171,19 @@ java の学習のため、環境構築（vscode + java）
 - [Day 10 challenge](/src/challenges/day010)
 - [markdown memo app](https://github.com/HasutoSasaki/note-mark)
   - [today commits](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-11&until=2025-05-11)
+
+### Day 11: May 12, Monday
+
+**Today's Progress**: キャッシュシステムの実装
+**Thoughts**:
+
+- キャッシュシステムは、普段自前で作る機会がないので、新鮮だった
+- 実装自体はシンプルだったが、理解するのに時間がかかった
+- `protected` を初めて知ることができた
+  - `protected` は、継承したクラスと自分のクラスからアクセスできるが、他のクラスからはアクセスできない。
+
+**Link(s) to work**:
+
+- [Day 11 challenge](/src/challenges/day011)
+- [markdown memo app](https://github.com/HasutoSasaki/note-mark)
+  - commit までできなかったが、ファイルへの書き込みを実装途中
