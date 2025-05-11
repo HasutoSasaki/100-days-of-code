@@ -155,3 +155,19 @@ java の学習のため、環境構築（vscode + java）
 
 - [Day 9 challenge](/src/challenges/day009)
 - [github actions](.github/workflows/pr-tests.yml)
+
+### Day 10: May 11, Sunday
+
+**Today's Progress**: キャッシュシステムの実装
+**Thoughts**:
+
+- キャッシュシステムは、普段自前で作る機会がないので、普通に難しかった
+- LRU という概念を初めて学ことができた。
+- 使う場面がイメージできずにいるので、実務で使う機会のある実装をしていきたい。
+- Class を使った実装は、普段あまり行わないので慣れる機会になった
+
+**Link(s) to work**:
+
+- [Day 10 challenge](/src/challenges/day010)
+- [markdown memo app](https://github.com/HasutoSasaki/note-mark)
+  - [today commits](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-11&until=2025-05-11)
