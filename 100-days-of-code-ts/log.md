@@ -187,3 +187,17 @@ java の学習のため、環境構築（vscode + java）
 - [Day 11 challenge](/src/challenges/day011)
 - [markdown memo app](https://github.com/HasutoSasaki/note-mark)
   - commit までできなかったが、ファイルへの書き込みを実装途中
+
+### Day 12: May 13, Tuesday
+
+**Today's Progress**: キャッシュシステムのパフォーマンス測定実装
+
+**Thoughts**:
+
+- パフォーマンス測定を使ったことがなかったので、大きな学びだった
+- 理解しきれていないので、振り返る必要があると感じた。
+
+- **Link(s) to work**:
+
+- [Day 12 challenge](/src/challenges/day012)
+- [markdown memo app](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-13&until=2025-05-13)
