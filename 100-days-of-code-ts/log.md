@@ -201,3 +201,17 @@ java の学習のため、環境構築（vscode + java）
 
 - [Day 12 challenge](/src/challenges/day012)
 - [markdown memo app](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-13&until=2025-05-13)
+
+### Day 13: May 14, Wednesday
+
+**Today's Progress**: シンプルなステート管理ライブラリの実装
+**Thoughts**:
+
+- ステート管理ライブラリは、普段使う機会があるので、実装できてよかった。
+- ステート管理ライブラリの仕組みをなんとなく理解できた気がします
+
+**Link(s) to work**:
+
+- [Day 13 challenge](/src/challenges/day013)
+- markdown memo app
+  - エラー調査のため、commit までできなかった
