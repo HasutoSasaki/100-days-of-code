@@ -215,3 +215,20 @@ java の学習のため、環境構築（vscode + java）
 - [Day 13 challenge](/src/challenges/day013)
 - markdown memo app
   - エラー調査のため、commit までできなかった
+
+### Day 14: May 15, Thursday
+
+**Today's Progress**: アクション/リデューサーパターンの実装
+**Thoughts**:
+
+- Redux を使ったことがないので、アクション/リデューサーパターンを初めて学ぶことができた。
+- アクション/リデューサーパターンの仕組みをなんとなく理解できた
+- ステート管理ライブラリの仕組みをなんとなく理解できた
+
+**Link(s) to work**:
+
+- [Day 14 challenge](/src/challenges/day014)
+- markdown memo app
+  - エラー解決！preload/index.ts のビルド時に、out/preload/index.mjs になっていて、読み込めていなかった。
+    electron.vite.config.ts の preload のビルド時に、cjs に変換するようにした。
+  - [commit](https://github.com/HasutoSasaki/note-mark/commit/1cc644c9dd94c9dd8983ea98679a58432c980d7e)
