@@ -232,3 +232,17 @@ java の学習のため、環境構築（vscode + java）
   - エラー解決！preload/index.ts のビルド時に、out/preload/index.mjs になっていて、読み込めていなかった。
     electron.vite.config.ts の preload のビルド時に、cjs に変換するようにした。
   - [commit](https://github.com/HasutoSasaki/note-mark/commit/1cc644c9dd94c9dd8983ea98679a58432c980d7e)
+
+### Day 15: May 16, Friday
+
+**Today's Progress**: ステート変更の監視機能の実装
+**Thoughts**:
+
+- ステート変更の監視機能の仕組みをなんとなく理解できた
+- コード量が多く、理解しきれていないので、振り返る必要があると感じた。
+
+**Link(s) to work**:
+
+- [Day 15 challenge](/src/challenges/day015)
+- markdown memo app
+  - [commit](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-16&until=2025-05-16)
