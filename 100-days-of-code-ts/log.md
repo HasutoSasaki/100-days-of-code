@@ -246,3 +246,17 @@ java の学習のため、環境構築（vscode + java）
 - [Day 15 challenge](/src/challenges/day015)
 - markdown memo app
   - [commit](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-16&until=2025-05-16)
+
+### Day 16: May 17, Saturday
+
+**Today's Progress**: 非同期アクションのサポートの実装
+**Thoughts**:
+
+- 関連が多く難しいと感じたかが、一個ずつ見たらなんとなく理解できた。
+- コード量が多く、理解しきれていないので、振り返る必要があると感じた。
+
+**Link(s) to work**:
+
+- [Day 16 challenge](/src/challenges/day016)
+- markdown memo app
+  - [commit](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-17&until=2025-05-17)
