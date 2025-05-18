@@ -279,3 +279,20 @@ java の学習のため、環境構築（vscode + java）
   - [commit](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-18&until=2025-05-18)
 - [minimal Virtual DOM app](https://github.com/HasutoSasaki/mini-vnode)
   - [commit](https://github.com/HasutoSasaki/mini-vnode/commits/master/?since=2025-05-18&until=2025-05-18)
+
+### Day 18: May 19, Monday
+
+**Today's Progress**:
+
+- portfolio site
+  - about section の実装
+
+**Thoughts**:
+
+- 特に新たなことは得ることができなかった。
+- ただ、ポートフォリオ実装は必要なので、進めていきたい。
+
+**Link(s) to work**:
+
+- [portfolio site](https://github.com/HasutoSasaki/my-portfolio)
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-19&until=2025-05-19)
