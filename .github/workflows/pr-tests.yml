@@ -10,6 +10,26 @@ env:
   WORKING_DIRECTORY: 100-days-of-code-ts
 
 jobs:
+  changes:
+    name: Detect changes
+    runs-on: ubuntu-latest
+    outputs:
+      challenges: ${{ steps.filter.outputs.challenges }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check for changes in challenges directory
+        uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            challenges:
+              - '${{ env.WORKING_DIRECTORY }}/src/challenges/**'
+              - '${{ env.WORKING_DIRECTORY }}/package.json'
+              - '${{ env.WORKING_DIRECTORY }}/package-lock.json'
+              - '${{ env.WORKING_DIRECTORY }}/tsconfig.json'
+              - '${{ env.WORKING_DIRECTORY }}/vitest.config.ts'
   test:
     name: Run test codes
     if: |
