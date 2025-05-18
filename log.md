@@ -260,3 +260,22 @@ java の学習のため、環境構築（vscode + java）
 - [Day 16 challenge](/src/challenges/day016)
 - markdown memo app
   - [commit](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-17&until=2025-05-17)
+
+### Day 17: May 18, Sunday
+
+**Today's Progress**:
+
+- markdown memo app の実装
+- minimal Virtual DOM app の実装
+
+**Thoughts**:
+
+- markdown memo app の実装は build までできて、実際に動くものができたので、嬉しかった。
+- minimal Virtual DOM の学習環境の構築と、step1 で少し理解を深めることができた
+
+** Link(s) to work**:
+
+- [markdown memo app](https://github.com/HasutoSasaki/note-mark)
+  - [commit](https://github.com/HasutoSasaki/note-mark/commits/master/?since=2025-05-18&until=2025-05-18)
+- [minimal Virtual DOM app](https://github.com/HasutoSasaki/mini-vnode)
+  - [commit](https://github.com/HasutoSasaki/mini-vnode/commits/master/?since=2025-05-18&until=2025-05-18)
