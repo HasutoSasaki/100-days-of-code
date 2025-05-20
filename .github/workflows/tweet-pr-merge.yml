@@ -1,0 +1,72 @@
+name: Tweet on PR Merge
+
+on:
+  pull_request:
+    types: [opened]
+    # types: [closed] #本来はこっち
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install GitHub CLI
+        run: sudo apt-get install gh -y
+
+      - name: Check PR has '100day' label
+        id: label_check
+        run: |
+          HAS_LABEL=$(gh pr view ${{ github.event.pull_request.number }} --json labels --jq '.labels[].name' | grep -c '^100day$' || true)
+          echo "has_label=$HAS_LABEL" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Exit if label not present
+        if: steps.label_check.outputs.has_label == '0'
+        run: |
+          echo "This PR does not have the '100day' label. Skipping tweet."
+          exit 0
+
+      - name: Count merged PRs with '100day' label
+        id: count
+        run: |
+          COUNT=$(gh pr list --base main --state merged --label '100day' --json number --jq 'length')
+          echo "day_number=$COUNT" >> $GITHUB_OUTPUT
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get PR commits
+        id: get_commits
+        run: |
+          COMMITS=$(gh pr view ${{ github.event.pull_request.number }} --json commits --jq '.commits[].message')
+          echo "COMMITS<<EOF" >> $GITHUB_ENV
+          echo "$COMMITS" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Format tweet
+        id: format
+        run: |
+          DAY=${{ steps.count.outputs.day_number }}
+          TITLE="${{ github.event.pull_request.title }}"
+          TWEET="✅ Day ${DAY} of #100DaysOfCode\nMerged PR: ${TITLE}\n\nCommits:\n"
+          COUNT=0
+          while IFS= read -r line; do
+            TWEET+="- ${line}\n"
+            COUNT=$((COUNT+1))
+            [ $COUNT -ge 5 ] && break
+          done <<< "$COMMITS"
+          echo "tweet_text=$TWEET" >> $GITHUB_OUTPUT
+
+      - name: Post Tweet
+        uses: ethomson/send-tweet-action@v1
+        with:
+          status: "${{ steps.format.outputs.tweet_text }}"
+          twitter-api-key: ${{ secrets.TWITTER_API_KEY }}
+          twitter-api-secret: ${{ secrets.TWITTER_SECRET_KEY }}
+          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
