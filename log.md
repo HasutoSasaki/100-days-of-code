@@ -296,3 +296,23 @@ java の学習のため、環境構築（vscode + java）
 
 - [portfolio site](https://github.com/HasutoSasaki/my-portfolio)
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-19&until=2025-05-19)
+
+### Day 19: May 20, Tuesday
+
+**Today's Progress**:
+
+- portfolio site
+  - navbar scroll 時の挙動の実装
+  - service section の実装
+  - 他設定まわり調整
+
+**Thoughts**:
+
+- 特に新たなことは得ることができなかった。
+- 引き続きポートフォリを完成させたい
+- tweet を自動化する ci を組みたい
+
+**Link(s) to work**:
+
+- [portfolio site](https://github.com/HasutoSasaki/my-portfolio)
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-20&until=2025-05-20)
