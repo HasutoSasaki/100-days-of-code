@@ -316,3 +316,20 @@ java の学習のため、環境構築（vscode + java）
 
 - [portfolio site](https://github.com/HasutoSasaki/my-portfolio)
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-20&until=2025-05-20)
+
+### Day 20: May 21, Wednesday
+
+**Today's Progress**:
+
+- PR 操作に応じた tweet を自動化する ci の実装
+  - テスト用に PR が立ったら、ツイートが正常に送信されるか確認した。結果ツイートはできていた。けどテキストが崩れていたので修正する
+
+**Thoughts**:
+
+- environments に設定したシークレットキーの参照方法を学べた。ただ、environment の値が間違えているので直す必要あり。
+
+**Link(s) to work**:
+
+- PR 操作に応じた tweet を自動化する ci の実装
+  [script](/src/.github/scripts)
+  [yaml](/src/.github/workflows/pr-tweet.yml)

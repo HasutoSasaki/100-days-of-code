@@ -1,0 +1,17 @@
+{
+    "name": "twitter-bot",
+    "version": "1.0.0",
+    "description": "Twitter bot for posting 100 days of code updates",
+    "main": "tweet.js",
+    "scripts": {
+        "build": "tsc",
+        "tweet": "node dist/tweet.js"
+    },
+    "dependencies": {
+        "twitter-api-v2": "^1.15.0"
+    },
+    "devDependencies": {
+        "@types/node": "^20.8.0",
+        "typescript": "^5.2.2"
+    }
+}

@@ -1,0 +1,85 @@
+name: Tweet on PR Open (Test)
+
+on:
+  pull_request:
+    types: [opened]
+    # types: [closed] # 本番環境では closed に変更し、マージされた場合のみツイート
+
+jobs:
+  tweet:
+    runs-on: ubuntu-latest
+    environment: Twitter_Key
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Install GitHub CLI
+        run: sudo apt-get install gh -y
+
+      - name: Check PR has '100day' label
+        id: label_check
+        run: |
+          HAS_LABEL=$(gh pr view ${{ github.event.pull_request.number }} --json labels --jq '.labels[].name' | grep -c '^100day$' || true)
+          echo "has_label=$HAS_LABEL" >> $GITHUB_OUTPUT
+
+      - name: Exit if label not present
+        if: steps.label_check.outputs.has_label == '0'
+        run: |
+          echo "This PR does not have the '100day' label. Skipping tweet."
+          exit 0
+
+      - name: Count PRs with '100day' label
+        id: count
+        run: |
+          COUNT=$(gh pr list --base main --state open --label '100day' --json number --jq 'length')
+          echo "day_number=$COUNT" >> $GITHUB_OUTPUT
+
+      - name: Get PR commits
+        id: get_commits
+        run: |
+          COMMITS=$(gh pr view ${{ github.event.pull_request.number }} --json commits --jq '.commits[].message')
+          echo "COMMITS<<EOF" >> $GITHUB_ENV
+          echo "$COMMITS" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Format tweet
+        id: format
+        run: |
+          DAY=${{ steps.count.outputs.day_number }}
+          TITLE="${{ github.event.pull_request.title }}"
+          TWEET="🧪 [TEST] Day ${DAY} of #100DaysOfCode\nNew PR: ${TITLE}\n\nCommits:\n"
+          COUNT=0
+          while IFS= read -r line; do
+            TWEET+="- ${line}\n"
+            COUNT=$((COUNT+1))
+            [ $COUNT -ge 5 ] && break
+          done <<< "$COMMITS"
+          echo "tweet_text=$TWEET" >> $GITHUB_OUTPUT
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "21"
+          cache: "npm"
+          cache-dependency-path: ".github/scripts/package-lock.json"
+
+      - name: Install dependencies
+        working-directory: .github/scripts
+        run: npm ci
+
+      - name: Build TypeScript
+        working-directory: .github/scripts
+        run: npm run build
+
+      - name: Post Tweet with Node.js
+        working-directory: .github/scripts
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_SECRET_KEY }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          TWEET_TEXT: ${{ steps.format.outputs.tweet_text }}
+        run: npm run tweet
