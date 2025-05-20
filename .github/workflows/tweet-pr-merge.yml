@@ -8,6 +8,7 @@ on:
 jobs:
   tweet:
     runs-on: ubuntu-latest
+    environment: Twitter_Key
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
