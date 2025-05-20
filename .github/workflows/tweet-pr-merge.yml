@@ -1,13 +1,15 @@
-name: Tweet on PR Merge
+name: Tweet on PR Open (Test)
 
 on:
   pull_request:
     types: [opened]
-    # types: [closed] #本来はこっち
+    # types: [closed] # 本番環境では closed に変更し、マージされた場合のみツイート
 
 jobs:
   tweet:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
     steps:
       - name: Checkout
@@ -21,8 +23,6 @@ jobs:
         run: |
           HAS_LABEL=$(gh pr view ${{ github.event.pull_request.number }} --json labels --jq '.labels[].name' | grep -c '^100day$' || true)
           echo "has_label=$HAS_LABEL" >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Exit if label not present
         if: steps.label_check.outputs.has_label == '0'
@@ -30,13 +30,11 @@ jobs:
           echo "This PR does not have the '100day' label. Skipping tweet."
           exit 0
 
-      - name: Count merged PRs with '100day' label
+      - name: Count PRs with '100day' label
         id: count
         run: |
-          COUNT=$(gh pr list --base main --state merged --label '100day' --json number --jq 'length')
+          COUNT=$(gh pr list --base main --state open --label '100day' --json number --jq 'length')
           echo "day_number=$COUNT" >> $GITHUB_OUTPUT
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get PR commits
         id: get_commits
@@ -45,15 +43,13 @@ jobs:
           echo "COMMITS<<EOF" >> $GITHUB_ENV
           echo "$COMMITS" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Format tweet
         id: format
         run: |
           DAY=${{ steps.count.outputs.day_number }}
           TITLE="${{ github.event.pull_request.title }}"
-          TWEET="✅ Day ${DAY} of #100DaysOfCode\nMerged PR: ${TITLE}\n\nCommits:\n"
+          TWEET="🧪 [TEST] Day ${DAY} of #100DaysOfCode\nNew PR: ${TITLE}\n\nCommits:\n"
           COUNT=0
           while IFS= read -r line; do
             TWEET+="- ${line}\n"
@@ -62,11 +58,27 @@ jobs:
           done <<< "$COMMITS"
           echo "tweet_text=$TWEET" >> $GITHUB_OUTPUT
 
-      - name: Post Tweet
-        uses: ethomson/send-tweet-action@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          status: "${{ steps.format.outputs.tweet_text }}"
-          consumer-key: ${{ secrets.TWITTER_API_KEY }}
-          consumer-secret: ${{ secrets.TWITTER_SECRET_KEY }}
-          access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-          access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          node-version: "21"
+          cache: "npm"
+          cache-dependency-path: ".github/scripts/package-lock.json"
+
+      - name: Install dependencies
+        working-directory: .github/scripts
+        run: npm ci
+
+      - name: Build TypeScript
+        working-directory: .github/scripts
+        run: npm run build
+
+      - name: Post Tweet with Node.js
+        working-directory: .github/scripts
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_SECRET_KEY }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+          TWEET_TEXT: ${{ steps.format.outputs.tweet_text }}
+        run: npm run tweet
