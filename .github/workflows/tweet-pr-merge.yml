@@ -66,7 +66,7 @@ jobs:
         uses: ethomson/send-tweet-action@v1
         with:
           status: "${{ steps.format.outputs.tweet_text }}"
-          twitter-api-key: ${{ secrets.TWITTER_API_KEY }}
-          twitter-api-secret: ${{ secrets.TWITTER_SECRET_KEY }}
+          consumer-key: ${{ secrets.TWITTER_API_KEY }}
+          consumer-secret: ${{ secrets.TWITTER_SECRET_KEY }}
           access-token: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           access-token-secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
