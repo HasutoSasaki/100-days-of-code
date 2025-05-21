@@ -333,3 +333,28 @@ java の学習のため、環境構築（vscode + java）
 - PR 操作に応じた tweet を自動化する ci の実装
   [script](/src/.github/scripts)
   [yaml](/src/.github/workflows/pr-tweet.yml)
+
+### Day 21: May 22, Thursday
+
+**Today's Progress**:
+
+- PR をマージ時に、 tweet を自動化する ci の実装
+  - ツイート文が正しく出力されるように修正
+- 自動テストの実行条件を修正
+  - challenges ディレクトリで作業した場合のみ、テストを実行するように修正
+- portfolio site
+  - work section の実装
+
+**Thoughts**:
+
+- github actions の環境変数の参照方法や別のステップの値を参照する方法を学べた。
+- これからも、github actions を使っていきたいので、もっと学習していきたい。
+
+**Link(s) to work**:
+
+- PR をマージ時に、 tweet を自動化する ci の実装
+  [yaml](/src/.github/workflows/pr-tweet.yml)
+- 自動テストの実行条件を修正
+  [yaml](/src/.github/workflows/pr-tests.yml)
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-21&until=2025-05-21)
