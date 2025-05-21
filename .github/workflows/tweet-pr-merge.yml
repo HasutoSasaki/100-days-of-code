@@ -68,18 +68,18 @@ jobs:
         with:
           node-version: "21"
           cache: "npm"
-          cache-dependency-path: ".github/scripts/package-lock.json"
+          cache-dependency-path: "scripts/package-lock.json"
 
       - name: Install dependencies
-        working-directory: .github/scripts
+        working-directory: scripts
         run: npm ci
 
       - name: Build TypeScript
-        working-directory: .github/scripts
+        working-directory: scripts
         run: npm run build
 
       - name: Post Tweet with Node.js
-        working-directory: .github/scripts
+        working-directory: scripts
         env:
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
           TWITTER_API_SECRET: ${{ secrets.TWITTER_API_KEY_SECRET }}
