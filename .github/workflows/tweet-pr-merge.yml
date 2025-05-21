@@ -2,13 +2,12 @@ name: Tweet on PR Open (Test)
 
 on:
   pull_request:
-    types: [opened]
-    # types: [closed] # 本番環境では closed に変更し、マージされた場合のみツイート
+    types: [closed] # 本番環境では closed に変更し、マージされた場合のみツイート
 
 jobs:
   tweet:
     runs-on: ubuntu-latest
-    environment: Twitter_Key
+    if: github.event.pull_request.merged == true
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -31,33 +30,38 @@ jobs:
           echo "This PR does not have the '100day' label. Skipping tweet."
           exit 0
 
-      - name: Count PRs with '100day' label
-        id: count
+      - name: Extract day number from branch name
+        id: extract_day
         run: |
-          COUNT=$(gh pr list --base main --state open --label '100day' --json number --jq 'length')
-          echo "day_number=$COUNT" >> $GITHUB_OUTPUT
+          # PRのheadブランチ名を取得
+          BRANCH_NAME="${{ github.event.pull_request.head.ref }}"
 
-      - name: Get PR commits
-        id: get_commits
-        run: |
-          COMMITS=$(gh pr view ${{ github.event.pull_request.number }} --json commits --jq '.commits[].message')
-          echo "COMMITS<<EOF" >> $GITHUB_ENV
-          echo "$COMMITS" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          # スラッシュ以降の部分を抽出
+          if [[ "$BRANCH_NAME" == */* ]]; then
+            DAY_NUMBER=$(echo "$BRANCH_NAME" | cut -d'/' -f2)
+            # 数字だけを抽出（数字以外が混ざっている場合に対応）
+            DAY_NUMBER=$(echo "$DAY_NUMBER" | grep -o '[0-9]\+')
+            # 先頭の0を削除
+            DAY_NUMBER=$(echo "$DAY_NUMBER" | sed 's/^0*//')
+          else
+            # スラッシュがない場合はデフォルト値を使用
+            DAY_NUMBER=$(gh pr list --base main --state closed --label '100day' --json number --jq 'length')
+          fi
+
+          echo "day_number=$DAY_NUMBER" >> $GITHUB_OUTPUT
 
       - name: Format tweet
         id: format
         run: |
-          DAY=${{ steps.count.outputs.day_number }}
+          DAY=${{ steps.extract_day.outputs.day_number }}
           TITLE="${{ github.event.pull_request.title }}"
-          TWEET="🧪 [TEST] Day ${DAY} of #100DaysOfCode\nNew PR: ${TITLE}\n\nCommits:\n"
-          COUNT=0
-          while IFS= read -r line; do
-            TWEET+="- ${line}\n"
-            COUNT=$((COUNT+1))
-            [ $COUNT -ge 5 ] && break
-          done <<< "$COMMITS"
-          echo "tweet_text=$TWEET" >> $GITHUB_OUTPUT
+          PR_TITLE="${{ github.event.pull_request.title }}"
+          PR_URL="${{ github.event.pull_request.html_url }}"
+          echo "tweet_text<<EOT" >> $GITHUB_OUTPUT 
+          echo "✅ Day ${DAY} of #100DaysOfCode" >> $GITHUB_OUTPUT
+          echo "Merged PR:✨${PR_TITLE}" >> $GITHUB_OUTPUT
+          echo "PR:${PR_URL}" >> $GITHUB_OUTPUT
+          echo "EOT" >> $GITHUB_OUTPUT
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -78,7 +82,7 @@ jobs:
         working-directory: .github/scripts
         env:
           TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
-          TWITTER_API_SECRET: ${{ secrets.TWITTER_SECRET_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_KEY_SECRET }}
           TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
           TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
           TWEET_TEXT: ${{ steps.format.outputs.tweet_text }}
