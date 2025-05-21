@@ -32,10 +32,12 @@ jobs:
               - '${{ env.WORKING_DIRECTORY }}/vitest.config.ts'
   test:
     name: Run test codes
+    needs: changes
     if: |
       github.event.pull_request.draft == false 
       &&  !startsWith(github.head_ref, 'release')
       &&  !startsWith(github.head_ref, 'doc')
+      && needs.changes.outputs.challenges == 'true'
     runs-on: ubuntu-latest
     defaults:
       run:
