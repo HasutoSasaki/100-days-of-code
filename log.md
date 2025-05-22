@@ -358,3 +358,23 @@ java の学習のため、環境構築（vscode + java）
   [yaml](/src/.github/workflows/pr-tests.yml)
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-21&until=2025-05-21)
+
+### Day 22: May 23, Friday
+
+**Today's Progress**:
+
+- portfolio site
+  - work section の完成
+  - tailwind css の設定の修正
+- open api の学習のため模写コーディング
+
+**Thoughts**:
+
+- tailwind css の設定の修正は、tailwind css の公式ドキュメントを参考にしたら早かった。最新のバージョンの際は公式を見るのが一番早いなと改めて感じた
+- バックエンドエンジニアを目指す上で、open api の学習は必要だと感じたので、模写コーディングを行った。また実際に動いてはいないので、今後動くようにしたい
+
+**Link(s) to work**:
+
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-23&until=2025-05-23)
+- open api の模写コーディング：リポジトリなし
