@@ -378,3 +378,22 @@ java の学習のため、環境構築（vscode + java）
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-23&until=2025-05-23)
 - open api の模写コーディング：リポジトリなし
+
+### Day 23: May 24, Saturday
+
+**Today's Progress**:
+
+- open api と typescript の学習のため sample api を作成
+- aws cli の MFA 認証用の CLI を作成（リポジトリなし）
+
+**Thoughts**:
+
+- open api と typescript の学習のため sample api を作成した。実際に動くものを作ることで、学習効果が高まると感じた。
+  - ただ、まだどこが使いどころかイメージできていないので、yaml から typescript への変換を行い、実際に動くものを作りたい。
+- aws cli の MFA 認証用の CLI を作成した。aws cli を使用する際に、毎回 MFA 認証をターミナルで行うのは面倒なので、CLI を作成した。これにより、MFA 認証を簡単に行えるようになった。
+
+**Link(s) to work**:
+
+- open api と typescript の学習のため sample api を作成
+  - [リポジトリ](https://github.com/HasutoSasaki/typescript-openapi-demo)
+  - [commit](https://github.com/HasutoSasaki/typescript-openapi-demo/commits/master/?since=2025-05-24&until=2025-05-24)
