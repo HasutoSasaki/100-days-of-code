@@ -422,3 +422,21 @@ java の学習のため、環境構築（vscode + java）
 
 - camera app の実装
   - private リポジトリのためリンクはなし
+
+### Day 25: May 26, Monday
+
+**Today's Progress**:
+
+- portfolio site
+  - contact section の実装
+  - footer section の実装(途中)
+
+**Thoughts**:
+
+- contact section の実装の際に、web3forms というものを初めて知ったので、きちんと調べたい。
+- 早く終わらせたい
+
+**Link(s) to work**:
+
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-26&until=2025-05-26)
