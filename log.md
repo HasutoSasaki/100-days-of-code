@@ -397,3 +397,28 @@ java の学習のため、環境構築（vscode + java）
 - open api と typescript の学習のため sample api を作成
   - [リポジトリ](https://github.com/HasutoSasaki/typescript-openapi-demo)
   - [commit](https://github.com/HasutoSasaki/typescript-openapi-demo/commits/master/?since=2025-05-24&until=2025-05-24)
+
+### Day 24: May 25, Sunday
+
+**Today's Progress**:
+
+- open api と typescript の学習のため penapi-ts/openapi-typescript の openapi-fetch/example に nuxt3 demo を追加
+  - nuxt3 の ssr で、openapi-fetch と openapi-typescript を使うことで、open api のエンドポイントを簡単に呼び出せるようにした。
+- camera app の実装
+  - zoom の計算を iphone のカメラと数値があるように、controller を作成した
+  - zoom controller のリファクタリング
+
+**Thoughts**:
+
+- open api と typescript の学習のため penapi-ts/openapi-typescript の openapi-fetch/example に nuxt3 demo を追加した。これにより、nuxt3 で open api を簡単に呼び出せるようになった。
+- まだ、PR が通っていないが初めての PR を出したので、通ることを願う。
+- camera app の処理にテストを書いてないので、そろそろ書いた方がいいのかなと思った
+
+**Link(s) to work**:
+
+- open api と typescript の学習のため penapi-ts/openapi-typescript の openapi-fetch/example に nuxt3 demo を追加
+
+  - [PR](https://github.com/openapi-ts/openapi-typescript/pull/2331)
+
+- camera app の実装
+  - private リポジトリのためリンクはなし
