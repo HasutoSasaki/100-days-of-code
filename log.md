@@ -440,3 +440,26 @@ java の学習のため、環境構築（vscode + java）
 
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-26&until=2025-05-26)
+
+### Day 26: May 27, Tuesday
+
+**Today's Progress**:
+
+- github my profile README の作成
+  - 自己紹介や github status を表示するための README を作成した
+- instagram api demo
+  - instagram api の検証環境の準備。ts を導入
+
+**Thoughts**:
+
+- github my profile README の作成は、初めての試みだったので、楽しかった。
+  - 自己紹介や github status を表示することで、より自分をアピールできるようになった。もっと充実させられるように頑張りたい
+- instagram api demo は、まだ実装ができていないので早く進めたい
+
+**Link(s) to work**:
+
+- github my profile README の作成
+  - [README](https://github.com/HasutoSasaki/HasutoSasaki)
+- instagram api demo
+  - [repository](https://github.com/HasutoSasaki/instagram-api-demo)
+  - [commit](https://github.com/HasutoSasaki/instagram-api-demo/commits/master/?since=2025-05-27&until=2025-05-27)
