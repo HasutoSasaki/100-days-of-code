@@ -463,3 +463,31 @@ java の学習のため、環境構築（vscode + java）
 - instagram api demo
   - [repository](https://github.com/HasutoSasaki/instagram-api-demo)
   - [commit](https://github.com/HasutoSasaki/instagram-api-demo/commits/master/?since=2025-05-27&until=2025-05-27)
+
+### Day 27: May 28, Wednesday
+
+**Today's Progress**:
+
+- instagram api demo（コード以外の設定）
+
+  - facebook アカウント作成
+  - facebook for developers アカウント作成
+  - instagram api の認証待ち
+
+- open api typescript の学習
+  - yaml から型定義ファイルを生成するためのスクリプトを追加
+  - yaml の配置を api ディレクトリに変更
+  - api gateway に import してみた。成功
+
+**Thoughts**:
+
+- 早く承認されて、実装を進めたい
+- open api typescript の学習は、まだ実際の使い方のイメージがついていないので、API gateway と lambda で実装することをイメージして進めてみたい
+
+**Link(s) to work**:
+
+- instagram api demo
+  - [repository](https://github.com/HasutoSasaki/instagram-api-demo)
+- open api typescript の学習
+  - [repository](https://github.com/HasutoSasaki/typescript-openapi-demo)
+  - [commit](https://github.com/HasutoSasaki/typescript-openapi-demo/commits/master/?since=2025-05-28&until=2025-05-28)
