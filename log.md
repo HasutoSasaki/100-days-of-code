@@ -491,3 +491,23 @@ java の学習のため、環境構築（vscode + java）
 - open api typescript の学習
   - [repository](https://github.com/HasutoSasaki/typescript-openapi-demo)
   - [commit](https://github.com/HasutoSasaki/typescript-openapi-demo/commits/master/?since=2025-05-28&until=2025-05-28)
+
+### Day 28: May 29, Thursday
+
+**Today's Progress**:
+
+- open api typescript の学習
+  - lambda で実行するためのスクリプトを追加
+  - lambda で使うときのディレクトリ設計
+
+**Thoughts**:
+
+- lambda で実行するためのスクリプトを追加し、実際に lambda で使うイメージが湧いた
+- API Gateway SDK はフロントエンドで使うということが学べた
+- lambda で使うときのディレクトリ設計を考えることで、実際に使うときのイメージが湧いた
+
+**Link(s) to work**:
+
+- open api typescript の学習
+  - [repository](https://github.com/HasutoSasaki/typescript-openapi-demo)
+  - [commit](https://github.com/HasutoSasaki/typescript-openapi-demo/commits/master/?since=2025-05-29&until=2025-05-29)
