@@ -511,3 +511,22 @@ java の学習のため、環境構築（vscode + java）
 - open api typescript の学習
   - [repository](https://github.com/HasutoSasaki/typescript-openapi-demo)
   - [commit](https://github.com/HasutoSasaki/typescript-openapi-demo/commits/master/?since=2025-05-29&until=2025-05-29)
+
+### Day 29: May 30, Friday
+
+**Today's Progress**:
+
+- portfolio site
+  - dork mode の実装
+- instagram api demo
+  - instagram api の認証が通った
+
+**Thoughts**:
+
+- dork mode の実装は、初めてだったが意外と簡単に実装できた。
+- instagram api の認証が通ったので、実装を進めることができるようになった。
+
+**Link(s) to work**:
+
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-30&until=2025-05-30)
