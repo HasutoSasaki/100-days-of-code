@@ -530,3 +530,27 @@ java の学習のため、環境構築（vscode + java）
 
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-05-30&until=2025-05-30)
+
+### Day 30: May 31, Saturday
+
+**Today's Progress**:
+
+- github tools
+  - branch ルールを一括で設定するツールを作成
+- camera app
+  - コンポーネントのディレクトリ設計の見直し
+  - ratio の設定と反映
+  - 背景色の設定
+
+**Thoughts**:
+
+- github tools の branch ルールを一括で設定するツールは、実際に使うことができるので、便利だと感じた。
+- camera app のコンポーネントのディレクトリ設計の見直しは、まだ違和感があるので、もう少し考える必要があると感じた。
+
+**Link(s) to work**:
+
+- github tools
+  - [repository](https://github.com/HasutoSasaki/github-tools)
+    - [commit](https://github.com/HasutoSasaki/github-tools/commits/master/?since=2025-05-31&until=2025-05-31)
+- camera app
+  - private リポジトリのためリンクはなし
