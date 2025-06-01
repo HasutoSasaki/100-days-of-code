@@ -554,3 +554,28 @@ java の学習のため、環境構築（vscode + java）
     - [commit](https://github.com/HasutoSasaki/github-tools/commits/master/?since=2025-05-31&until=2025-05-31)
 - camera app
   - private リポジトリのためリンクはなし
+
+### Day 31: June 1, Sunday
+
+**Today's Progress**:
+
+- portfolio site
+  - dark mode の実装を全体に適用
+  - gsap の導入,header のアニメーションの実装
+- domain の取得
+- s3 と cloudfront を使った静的サイトのホスティング
+  - s3 のバケットの作成
+  - cloudfront のディストリビューションの作成
+  - s3 のバケットポリシーの設定
+  - しかし、まだ公開できていない
+
+**Thoughts**:
+
+- portfolio site の dark mode の実装は、全体に適用できたので、満足している。
+- gsap の導入は、初めてだったが、アニメーションの実装が簡単にできたので、楽しかった。もっとこだわっていきたい
+- domain の取得は、初めてだったが、取得できて嬉しい！
+- s3 と cloudfront を使った静的サイトのホスティングは、まだ公開できていないので、早く公開できるようにしたい。
+  **Link(s) to work**:
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-01&until=2025-06-01)
+- その他はコミットなし
