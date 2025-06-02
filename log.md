@@ -602,3 +602,22 @@ java の学習のため、環境構築（vscode + java）
 
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-02&until=2025-06-02)
+
+### Day 33: June 3, Tuesday
+
+**Today's Progress**:
+
+- portfolio site
+  - gsap の smooth scroll と scroll trigger の導入
+  - icon の背景を透過して、アイコンの色を変更
+  - about section の文言の修正
+
+**Thoughts**:
+
+- gsap の smooth scroll と scroll trigger がとても理想的な動きで感動した
+- 文言が修正し切れていないので、修正したい
+
+**Link(s) to work**:
+
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-03&until=2025-06-03)
