@@ -579,3 +579,26 @@ java の学習のため、環境構築（vscode + java）
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-01&until=2025-06-01)
 - その他はコミットなし
+
+### Day 32: June 2, Monday
+
+**Today's Progress**:
+
+- portfolio site
+  - cloudfront の設定の修正
+  - s3 のバケットポリシーの修正
+  - s3 のバケットの静的ウェブサイトホスティングの設定
+  - 無事に公開できた！
+    　- header 部分の画像表示のアニメーションを修正
+    　- ssg build のための細かい修正
+
+**Thoughts**:
+
+- cloudfront の設定の修正は、初めてだったが、設定を見直すことで解決できたので、良かった。
+- ともかくなんとか自分のドメインで公開できたので、嬉しい！
+- アニメーションを全体的に凝っていきたい
+
+**Link(s) to work**:
+
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-02&until=2025-06-02)
