@@ -621,3 +621,24 @@ java の学習のため、環境構築（vscode + java）
 
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-03&until=2025-06-03)
+
+### Day 34: June 4, Wednesday
+
+**Today's Progress**:
+
+- portfolio site
+  - work section の記載内容の修正
+  - footer の各 SNS のリンクの修正
+  - 各種画像素材の修正
+- Next.js の学習
+  - Next の dev serve 時に、自動でブラウザを開く方法を模索
+
+**Thoughts**:
+
+- portfolio site の 各種内容の見直しをしたことで、公開できる状態にできた
+- next の dev serve 時に、自動でブラウザを開く方法は、まだわからないので、調べてみて、ない場合は PR 出してみる？
+
+**Link(s) to work**:
+
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-04&until=2025-06-04)
