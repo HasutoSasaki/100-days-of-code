@@ -642,3 +642,21 @@ java の学習のため、環境構築（vscode + java）
 
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-04&until=2025-06-04)
+
+### Day 35: June 5, Thursday
+
+**Today's Progress**:
+
+- portfolio site
+  - about section の skill 　表示の修正
+  - header のタイトルにホバーじに回転するアニメーションを追加
+
+**Thoughts**:
+
+- about section の skill 表示のはバッジを使うことで見やすくなった
+- gsap のアニメーションを増やすことでリッチにはなるが、コンポーネント内がごちゃつくので、リファクタリングとして分けたい
+
+**Link(s) to work**:
+
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-05&until=2025-06-05)
