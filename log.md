@@ -660,3 +660,23 @@ java の学習のため、環境構築（vscode + java）
 
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-05&until=2025-06-05)
+
+### Day 36: June 6, Friday
+
+**Today's Progress**:
+
+- portfolio site
+  - 各セクションにパララックス効果を追加
+  - NavBar,About,Footer にアニメーションを追加
+  - 各セクションのコンポーネントを分割
+
+**Thoughts**:
+
+- 各セクションにパララックス効果を追加することで、よりリッチな表現ができた
+- 各セクションのコンポーネントを分割することで、コードが見やすくなった
+- アニメーションについて理解しきれていないので、もう少し学習していきたい
+
+**Link(s) to work**:
+
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-06&until=2025-06-06)
