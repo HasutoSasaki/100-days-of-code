@@ -680,3 +680,22 @@ java の学習のため、環境構築（vscode + java）
 
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-06&until=2025-06-06)
+
+### Day 37: June 7, Saturday
+
+**Today's Progress**:
+
+- portfolio site
+  - footer の logo にドラッグのアニメーションを追加。引っ張ったりできる
+  - about section の画像にパーティクルアニメーションを追加。スクロールすると画像が生成される
+
+**Thoughts**:
+
+- footer の logo にドラッグのアニメーションを追加することで、よりインタラクティブな表現ができた
+- about section の画像にパーティクルアニメーションを追加することで、よりリッチな表現ができた
+- SP 版の制御ができていないのと、まだ不慣れな部分があるので、色々実装して学んでいきたい
+
+**Link(s) to work**:
+
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-07&until=2025-06-07)
