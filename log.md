@@ -699,3 +699,30 @@ java の学習のため、環境構築（vscode + java）
 
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-07&until=2025-06-07)
+
+### Day 38: June 8, Sunday
+
+**Today's Progress**:
+
+- github mcp server の設定
+  - github token の管理方法として、.zshrc に設定して、mcp server で参照できるようにした
+- camera app
+  - カメラ上部の control bar のアイコンとスタイル追加
+- portfolio site
+  - 不要なリンクとボタンの削除
+  - default export から named export に変更
+
+**Thoughts**:
+
+- github mcp server の設定は、初めてだったが、.zshrc に設定することで、セキュアに管理できることがわかった
+- github mcp server で issue を作成することで、vscode 内で開発が完結できる気がして、どんどん使っていきたいと感じた
+- camera app のカメラ上部の control bar のアイコンとスタイル追加は、まだ不完全だが、少しずつ完成に近づいていると感じた
+- portfolio site の不要なリンクとボタンの削除は、コードを見やすくするために必要な作業だった
+
+**Link(s) to work**:
+
+- github mcp server の設定(ローカルの settings.json に設定)
+- camera app
+  - private リポジトリのためリンクはなし
+- portfolio site
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-08&until=2025-06-08)
