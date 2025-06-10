@@ -765,3 +765,28 @@ java の学習のため、環境構築（vscode + java）
 
 - camera app
   - private リポジトリのためリンクはなし
+
+### Day 41: June 11, Wednesday
+
+**Today's Progress**:
+
+- Tiny TCP
+  - ✅ TCP ヘッダ構造の定義 - RFC 793 に基づいた TCP ヘッダ構造、制御フラグ、基本メソッドを実装
+  - ✅ 基本的なソケット構造の定義 - TCP 状態管理、ソケット API（Listen, Accept, Connect, Send, Receive, Close）を実装
+  - ✅ 簡単なクライアント・サーバーのプロトタイプ - 実際に動作するプロトタイプを作成、動作確認完了
+  - 動作確認済み機能:
+    - TCP ヘッダの作成と操作
+    - ソケットの状態管理
+    - 基本的なソケット操作（Listen, Connect, Send, Close）
+    - クライアント・サーバー間の基本通信フロー
+
+**Thoughts**:
+
+- Tiny TCP の実装は、TCP の基本的な理解を深めることができた。まだ細かいことは理解できていない
+- GO 言語のなんとなくの書き方を知ることができた。今後慣れていきたい
+
+**Link(s) to work**:
+
+- Tiny TCP
+  - [repository](https://github.com/HasutoSasaki/TinyTcp)
+  - [commit](https://github.com/HasutoSasaki/TinyTcp/commits/master/?since=2025-06-11&until=2025-06-11)
