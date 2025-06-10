@@ -727,6 +727,25 @@ java の学習のため、環境構築（vscode + java）
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-08&until=2025-06-08)
 
+### Day 39: June 9, Monday
+
+**Today's Progress**:
+
+- camera app
+  - top control bar を追加
+  - ratio の切り替え機能追加。スタイルとアイコンの追加
+  - 今後実装する、tools panel のためのコンポーネントを追加
+
+**Thoughts**:
+
+- top control bar を追加することで、カメラアプリの操作性が向上したと感じた
+- ratio の切り替えが反応せず時間を無駄にしてしまった。原因はピンンイン、アウトのレイヤーと被っていたためだった
+
+**Link(s) to work**:
+
+- camera app
+  - private リポジトリのためリンクはなし
+
 ### Day 40: June 10, Tuesday
 
 **Today's Progress**:
