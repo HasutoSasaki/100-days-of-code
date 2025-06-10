@@ -726,3 +726,23 @@ java の学習のため、環境構築（vscode + java）
   - private リポジトリのためリンクはなし
 - portfolio site
   - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/master/?since=2025-06-08&until=2025-06-08)
+
+### Day 40: June 10, Tuesday
+
+**Today's Progress**:
+
+- camera app
+  - camera mode の切り替え機能用のコンポーネントを追加
+  - ratio 切り替えボタンのスタイルを修正
+  - ratio 適用のカメラサイズの調整（横だったので、縦に修正
+
+**Thoughts**:
+
+- camera mode の切り替え機能用のコンポーネントを追加したので、次は切り替えれる様にする
+- ratio 切り替えボタンのスタイルを修正したので、見た目が良くなった
+- 機能が増えてきて、複雑化してきたので型設計で整理したい
+
+**Link(s) to work**:
+
+- camera app
+  - private リポジトリのためリンクはなし
