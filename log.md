@@ -790,3 +790,27 @@ java の学習のため、環境構築（vscode + java）
 - Tiny TCP
   - [repository](https://github.com/HasutoSasaki/TinyTcp)
   - [commit](https://github.com/HasutoSasaki/TinyTcp/commits/master/?since=2025-06-11&until=2025-06-11)
+
+### Day 42: June 12, Thursday
+
+**Today's Progress**:
+
+- Tiny TCP
+  　- TCP の 3 ウェイハンドシェイクを実装しました。
+  　- クライアントとサーバー間で SYN → SYN-ACK → ACK の流れを処理する機能を作成し、TCP 接続の確立部分を完成させました。
+- git-branch-automation
+  - ローカルで開発時に、毎回同じコマンドを叩いていたので自動化スクリプトの実装
+
+**Thoughts**:
+
+- TCP ハンドシェイクの仕組み: 通信開始前の「挨拶」のようなもので、お互いの存在確認と通信準備を行う 3 段階のプロセス
+- シーケンス番号: データの順序を保証するための番号システムで、ハンドシェイク時に同期を取る
+- git-branch-automation のスクリプトは、毎回同じコマンドを叩く手間を省けるので、開発効率が向上しました。
+
+**Link(s) to work**:
+
+- Tiny TCP
+  - [repository](https://github.com/HasutoSasaki/TinyTcp)
+  - [commit](https://github.com/HasutoSasaki/TinyTcp/commits/master/?since=2025-06-12&until=2025-06-12)
+- git-branch-automation
+  - [directory](https://github.com/HasutoSasaki/100-days-of-code/git-branch-automation)
