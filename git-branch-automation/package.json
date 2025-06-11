@@ -1,0 +1,35 @@
+{
+  "name": "git-branch-automation",
+  "version": "1.0.0",
+  "description": "A project to automate Git branch management for feature development.",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "dev": "ts-node src/index.ts",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "create-branch": "npm run start",
+    "commit-work": "npm run start"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "vitest": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HasutoSasaki/git-branch-automation.git"
+  },
+  "keywords": [
+    "git",
+    "automation",
+    "branch",
+    "feature"
+  ],
+  "author": "Hasuto Sasaki",
+  "license": "MIT"
+}
