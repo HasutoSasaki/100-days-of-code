@@ -814,3 +814,38 @@ java の学習のため、環境構築（vscode + java）
   - [commit](https://github.com/HasutoSasaki/TinyTcp/commits/master/?since=2025-06-12&until=2025-06-12)
 - git-branch-automation
   - [directory](https://github.com/HasutoSasaki/100-days-of-code/git-branch-automation)
+
+### Day 43: June 13, Friday
+
+**Today's Progress**:
+
+- Tiny TCP
+  - `Send`/`Receive` メソッドの実装
+  - TCP のデータ送受信の基本的なロジックを実装しました。
+  - シーケンス番号・ACK 番号更新
+- TinyZipZap
+  - Run-Length Encoding (RLE)
+    - RLE の基本的なアルゴリズムを実装しました。
+    - 簡単な圧縮と解凍のテストを行い、動作確認済み
+- gotour
+  - Go 言語の基本的な文法や構文を学ぶためのチュートリアルを進めました。
+  - step1 なので、基本的な文法や構文を学ぶところ
+
+**Thoughts**:
+
+- Tiny TCP の `Send`/`Receive` メソッドの実装は、TCP のデータ送受信の基本的な理解を深めることができた。
+  - シーケンス番号・ACK 番号更新のロジックを実装することで、TCP の通信の流れを理解できた。
+- TinyZipZap の RLE の実装は、圧縮アルゴリズムの基本的な理解を深めることができた。
+- gotour の学習は、Go 言語の基本的な文法や構文を学ぶことができた。まだまだ学ぶことが多いので、続けていきたい。
+
+**Link(s) to work**:
+
+- Tiny TCP
+  - [repository](https://github.com/HasutoSasaki/TinyTcp)
+  - [commit](https://github.com/HasutoSasaki/TinyTcp/commits/master/?since=2025-06-13&until=2025-06-13)
+- TinyZipZap
+  - [repository](https://github.com/HasutoSasaki/TinyZipZap)
+  - [commit](https://github.com/HasutoSasaki/TinyZipZap/commits/master/?since=2025-06-13&until=2025-06-13)
+- gotour
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-13&until=2025-06-13)
