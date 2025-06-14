@@ -849,3 +849,36 @@ java の学習のため、環境構築（vscode + java）
 - gotour
   - [repository](https://github.com/HasutoSasaki/gotour)
   - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-13&until=2025-06-13)
+
+### Day 44: June 14, Saturday
+
+**Today's Progress**:
+
+- Tiny TCP
+  - TCP コネクション切断 (4 ウェイハンドシェイク)
+    - FIN パケット処理、TCB 状態遷移
+    - FIN-ACK の送信と ACK の受信処理を実装
+- TinyZipZap
+  - Huffman 圧縮アルゴリズムの実装
+    - 簡単な圧縮と解凍のテストを行い、動作確認済み
+- gotour
+  - 基本的なデータ型と、if 文、for 文の使い方を学習
+
+**Thoughts**:
+
+- Tiny TCP の 4 ウェイハンドシェイクの実装は、TCP のコネクション切断の流れを理解するのに役立った。
+- FIN パケット処理や TCB 状態遷移の実装を通じて、TCP の状態管理の重要性を学んだ。
+- TinyZipZap の Huffman 圧縮アルゴリズムの概念はわかったが、具体的な部分を理解できていないので、もう少し学習が必要。
+- gotour の学習は、Go 言語の基本的なデータ型や制御フローの理解を深めることができた。引き続き学習を続けたい。
+
+**Link(s) to work**:
+
+- Tiny TCP
+  - [repository](https://github.com/HasutoSasaki/TinyTcp)
+  - [commit](https://github.com/HasutoSasaki/TinyTcp/commits/master/?since=2025-06-14&until=2025-06-14)
+  - TinyZipZap
+  - [repository](https://github.com/HasutoSasaki/TinyZipZap)
+  - [commit](https://github.com/HasutoSasaki/TinyZipZap/commits/master/?since=2025-06-14&until=2025-06-14)
+- gotour
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-14&until=2025-06-14)
