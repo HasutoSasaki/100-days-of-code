@@ -913,3 +913,27 @@ java の学習のため、環境構築（vscode + java）
   　：ローカルのため、リポジトリなし
 - linux の環境構築を docker で行い、docker の使い方を学習
   ：ローカルのため、リポジトリなし
+
+### Day 46: June 16, Monday
+
+**Today's Progress**:
+
+- gotour
+  - Go 言語の if 文、for 文、switch 文の使い方を学習
+- typescript-typescript and openapi-fetch and nuxt3 example
+  - nuxt3 での OpenAPI の使い方を学べる example を作成
+  - 管理するための仕組みやドキュメント作成がまだなので、今後の課題としたい。
+- **Thoughts**:
+
+- gotour の学習は、Go 言語の基本的な制御フローの理解を深めることができた。特に、switch 文の使い方や、for 文 について学ぶことができた。
+- typescript-typescript and openapi-fetch and nuxt3 example の作成は、Nuxt3 で OpenAPI を使う際の基本的な構成を理解するのに役立った。まだドキュメントや管理の仕組みが不十分なので、今後改善していきたい。
+
+**Link(s) to work**:
+
+- gotour
+
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-16&until=2025-06-16)
+
+- typescript-typescript and openapi-fetch and nuxt3 example
+  - [repository](https://github.com/HasutoSasaki/typescript-typescript-and-openapi-fetch-and-nuxt3-example)
