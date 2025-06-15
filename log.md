@@ -882,3 +882,34 @@ java の学習のため、環境構築（vscode + java）
 - gotour
   - [repository](https://github.com/HasutoSasaki/gotour)
   - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-14&until=2025-06-14)
+
+### Day 45: June 15, Sunday
+
+**Today's Progress**:
+
+- Tiny TCP
+  - TCP の再送制御の実装
+    - TCP パケット（SYN、データ、FIN）の送信時に再送キューに追加し、ACK 受信時にキューから削除する機能を追加
+  - タイムアウト処理:
+    - 設定可能なタイムアウト時間（デフォルト 1 秒）と最大再送回数（デフォルト 3 回）でパケットの再送を管理する仕組みを実装
+- Linux 標準教科書
+  - Linux の基本的なコマンドやシェルの使い方を学習
+    - ファイル操作、ディレクトリ操作、パーミッション管理などの基本的な操作を学んだ
+- linux の環境構築を docker で行い、docker の使い方を学習
+  - Dockerfile の作成と、コンテナのビルド・実行方法を学んだ
+
+**Thoughts**:
+
+- Tiny TCP の再送制御の実装は、TCP の信頼性を向上させるための重要な機能であり、実際のネットワーク通信での再送制御の仕組みを理解できた。具体的には理解できていないので、もう少し学習が必要。
+- 簡単な linux のコマンドやシェルの使い方を学ぶことで、Linux 環境での基本的な操作に慣れることができた。今後はもっと高度な操作やスクリプトの書き方を学んでいきたい。
+- Docker の使い方を学ぶことで、コンテナ化の利点や、開発環境の構築が効率化できることを実感した。今後は、Docker Compose や Kubernetes などのより高度な機能も学んでいきたい。
+
+**Link(s) to work**:
+
+- Tiny TCP
+  - [repository](https://github.com/HasutoSasaki/TinyTcp)
+  - [commit](https://github.com/HasutoSasaki/TinyTcp/commits/master/?since=2025-06-15&until=2025-06-15)
+- Linux 標準教科書
+  　：ローカルのため、リポジトリなし
+- linux の環境構築を docker で行い、docker の使い方を学習
+  ：ローカルのため、リポジトリなし
