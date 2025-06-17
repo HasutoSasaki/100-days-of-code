@@ -937,3 +937,21 @@ java の学習のため、環境構築（vscode + java）
 
 - typescript-typescript and openapi-fetch and nuxt3 example
   - [repository](https://github.com/HasutoSasaki/typescript-typescript-and-openapi-fetch-and-nuxt3-example)
+
+### Day 47: June 17, Tuesday
+
+**Today's Progress**:
+
+- gotour
+  - pointer, struct, array, slice の使い方を学習
+
+**Thoughts**:
+
+- gotour の学習は、Go 言語のポインタ、構造体、配列、スライスの使い方を理解するのに役立った。特に、ポインタの使い方や、構造体の定義と使用方法について学ぶことができた。
+- JS と比較して、ポインタのメリットを感じた。データの参照が明示的なので、バグの発生を防ぎやすいと感じた。
+
+**Link(s) to work**:
+
+- gotour
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-17&until=2025-06-17)
