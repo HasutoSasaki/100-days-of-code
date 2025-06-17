@@ -955,3 +955,19 @@ java の学習のため、環境構築（vscode + java）
 - gotour
   - [repository](https://github.com/HasutoSasaki/gotour)
   - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-17&until=2025-06-17)
+
+### Day 48: June 18, Wednesday
+
+**Today's Progress**:
+
+- gotour
+  - map, slice, range の使い方を学習
+
+**Thoughts**:
+
+- gotour の学習は、Go 言語のマップ、スライス、range の使い方を理解するのに役立った。単純なものなら理解できたが、処理が重なると理解が難しくなった。
+- slice の追加方がまだ、いまいち掴めていない
+  **Link(s) to work**:
+- gotour
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-18&until=2025-06-18)
