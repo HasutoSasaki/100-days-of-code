@@ -971,3 +971,22 @@ java の学習のため、環境構築（vscode + java）
 - gotour
   - [repository](https://github.com/HasutoSasaki/gotour)
   - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-18&until=2025-06-18)
+
+### Day 49: June 19, Thursday
+
+**Today's Progress**:
+
+- gotour
+  - 関数変数に関数を代入する方法を学習
+  - methods の使い方を学習
+  - pointer receiver, value receiver の使い方を学習
+
+**Thoughts**:
+
+- gotour の学習は、Go 言語のメソッドの使い方を理解するのに役立った。特に、ポインタレシーバーと値レシーバーの使い方について学ぶことができた。まだ、レシーバについての理解が浅いので、もう少し学習が必要。
+
+**Link(s) to work**:
+
+- gotour
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-19&until=2025-06-19)
