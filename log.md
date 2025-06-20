@@ -990,3 +990,26 @@ java の学習のため、環境構築（vscode + java）
 - gotour
   - [repository](https://github.com/HasutoSasaki/gotour)
   - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-19&until=2025-06-19)
+
+### Day 50: June 20, Friday
+
+**Today's Progress**:
+
+- gotour
+
+  - receive,interface 　の使い方を学習
+  - 値レシーバのメソッドは、値型とポインタ型の両方で呼び出せるが、ポインタレシーバのメソッドはポインタ型でのみ呼び出せることを学習
+  - インターフェースの値は「値」と「型」のセット
+  - メソッド呼び出し時は、その「型」のメソッドが実行される
+    - この仕組みにより、Go では異なる型でも同じインターフェースを通じて同じ様に扱うことができる
+
+**Thoughts**:
+
+- gotour の学習は、Go 言語のインターフェースの使い方を理解するのに役立った。特に、インターフェースの値が「値」と「型」のセットであることや、メソッド呼び出し時にその「型」のメソッドが実行されることを学ぶことができた。
+- インターフェースの仕組みを理解することで、Go 言語の型システムの柔軟性を実感した。
+
+**Link(s) to work**:
+
+- gotour
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-20&until=2025-06-20)
