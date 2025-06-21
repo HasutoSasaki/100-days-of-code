@@ -1013,3 +1013,36 @@ java の学習のため、環境構築（vscode + java）
 - gotour
   - [repository](https://github.com/HasutoSasaki/gotour)
   - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-20&until=2025-06-20)
+
+### Day 51: June 21, Saturday
+
+**Today's Progress**:
+
+- gotour
+  - interface の値は「値」と「型」のセットであることを再認識
+  - 空の interface の値で定義した場合は、任意な型の値を格納できることを学習
+  - 型アサーションの使い方を学習
+    - ok 変数を使うと、別の型でも false になるだけだが、ないと panic することを学習
+- github actions 学び
+  - コンテキストはシェルにハードコードせずに環境変数を通す
+  - 環境変数は全てダブルクォートで囲む
+- Tiny TCP
+  - TCP の three-way handshake の部分を別のファイルに分割
+    - 分割したことで、以前より理解しやすくなった
+
+**Thoughts**:
+
+- gotour の学習は、Go 言語のインターフェースの値が「値」と「型」のセットであることを再認識できた。特に、空のインターフェースの値で定義した場合は、任意な型の値を格納できることや、型アサーションの使い方について学ぶことができた。
+- 型アサーションの ok 変数を使うことで、型のチェックができることを学んだ。
+- Tiny TCP の three-way handshake の部分を別のファイルに分割することで、以前より理解しやすくなった。が人に説明できるレベルではないので、もう少し学習が必要。
+
+**Link(s) to work**:
+
+- gotour
+
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-21&until=2025-06-21)
+
+- Tiny TCP
+  - [repository](https://github.com/HasutoSasaki/tiny_tcp)
+  - [commit](https://github.com/HasutoSasaki/tiny_tcp/commits/master/?since=2025-06-21&until=2025-06-21)
