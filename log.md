@@ -1046,3 +1046,42 @@ java の学習のため、環境構築（vscode + java）
 - Tiny TCP
   - [repository](https://github.com/HasutoSasaki/tiny_tcp)
   - [commit](https://github.com/HasutoSasaki/tiny_tcp/commits/master/?since=2025-06-21&until=2025-06-21)
+
+### Day 52: June 22, Sunday
+
+**Today's Progress**:
+
+- gotour
+  - ROT13 のアルゴリズムを実装
+    - 文字を 13 文字ずらすことで暗号化するシンプルなアルゴリズム
+    - すぐに復号化できるので、セキュリティ的には弱いが、Go の文字列操作の練習に最適
+  - レシーバについて再認識した
+    - 値レシーバは構造体のコピーで、元の値を変更しない場合に使用
+    - ポインタレシーバは構造体へのポインタで、元の値を変更する場合に使用
+  - XOR 暗号化アルゴリズムを実装
+    - 文字列を XOR 演算で暗号化するシンプルなアルゴリズム
+    - キーを使って暗号化と復号化が可能
+    - 2 回 XOR すると元の文字列に戻る性質がある
+  - goroutine と channel の使い方を学習
+    - goroutine は軽量なスレッドで、並行処理を実現するために使用
+    - channel は goroutine 間の通信手段で、データの送受信を行う
+    - 例えば、同時に複数の fetch リクエストを行い、結果をまとめる処理などに利用できる
+  - select 文の使い方を学習
+    - select 文は複数の channel の操作を待ち受け、最初に準備ができたものを実行する
+    - goroutine と channel を組み合わせて、非同期処理や並行処理を効率的に実装できる
+- openapi-typescript-and-nuxt3-example
+  - nuxt3 での OpenAPI の使い方を学べる example を作成完了。typescript OpenAPI の docs に記載する準備を進める
+
+**Thoughts**:
+
+- gotour の学習は、Go 言語の文字列操作や暗号化アルゴリズムの実装を通じて、Go の基本的な文法や構文を復習できた。特に、レシーバの使い方や goroutine と channel の使い方について学ぶことができた。
+- goroutine と channel の組み合わせは、Go 言語の並行処理の強力な機能であり、非同期処理や並行処理を効率的に実装できることを実感した。
+
+**Link(s) to work**:
+
+- gotour
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-22&until=2025-06-22)
+  - openapi-typescript-and-nuxt3-example
+  - [repository](https://github.com/HasutoSasaki/openapi-typescript-and-nuxt3-example)
+  - [commit](https://github.com/HasutoSasaki/openapi-typescript-and-nuxt3-example/commits/master/?since=2025-06-22&until=2025-06-22)
