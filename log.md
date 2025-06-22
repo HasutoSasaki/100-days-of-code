@@ -1085,3 +1085,29 @@ java の学習のため、環境構築（vscode + java）
   - openapi-typescript-and-nuxt3-example
   - [repository](https://github.com/HasutoSasaki/openapi-typescript-and-nuxt3-example)
   - [commit](https://github.com/HasutoSasaki/openapi-typescript-and-nuxt3-example/commits/master/?since=2025-06-22&until=2025-06-22)
+
+### Day 53: June 23, Monday
+
+**Today's Progress**:
+
+- gotour
+  - channel で並行して別の処理をする際は、lock,unlock を使う必要があることを学習
+- translate-cli
+  - deepl の翻訳 API を使って、コマンドラインから翻訳できるツールを作成
+  - 翻訳 API のキーを環境変数から取得するようにした
+
+**Thoughts**:
+
+- gotour の学習は、Go 言語の channel を使った並行処理の基本的な理解を深めることができた。特に、channel で並行して別の処理をする際は、lock,unlock を使う必要があることを学ぶことができた。
+- まだ、lock,unlock について処理の流れが理解できていないので、もう少し学習が必要。
+- translate-cli の作成は、Go 言語での API の使い方や、環境変数の扱い方を学ぶことができた。
+- 翻訳 CLI を元に、より go の理解を深めたい
+
+**Link(s) to work**:
+
+- gotour
+  - [repository](https://github.com/HasutoSasaki/gotour)
+  - [commit](https://github.com/HasutoSasaki/gotour/commits/master/?since=2025-06-23&until=2025-06-23)
+- translate-cli
+  - [repository](https://github.com/HasutoSasaki/translate-cli)
+  - [commit](https://github.com/HasutoSasaki/translate-cli/commits/master/?since=2025-06-23&until=2025-06-23)
