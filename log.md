@@ -1138,3 +1138,23 @@ java の学習のため、環境構築（vscode + java）
   - [repository](https://github.com/HasutoSasaki/PomodoBar)
   - [commit](https://github.com/HasutoSasaki/PomodoBar/commits/master/?since=2025-06-24&until=2025-06-24)
     ※まだ、整理できていないのでコミットはありません。
+
+### Day 55: June 25, Wednesday
+
+**Today's Progress**:
+
+- PomodoBar
+  - electron でバーにポモドーロタイマーを表示するアプリを作成
+  - window に何も必要としないので、簡素化し Tray を使って、バーにポモドーロタイマーを表示するアプリを作成
+  - タイマーの開始、停止、リセットの機能を実装
+
+**Thoughts**:
+
+- electron と vue を入れてしまったが、バーに表示するだけなら Tray だけで十分だった。
+- 今後使い勝手を見て、アップデートしていきたい
+
+**Link(s) to work**:
+
+- PomodoBar
+  - [repository](https://github.com/HasutoSasaki/PomodoBar)
+  - [commit](https://github.com/HasutoSasaki/PomodoBar/commits/master/?since=2025-06-25&until=2025-06-25)
