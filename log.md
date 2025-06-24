@@ -1111,3 +1111,30 @@ java の学習のため、環境構築（vscode + java）
 - translate-cli
   - [repository](https://github.com/HasutoSasaki/translate-cli)
   - [commit](https://github.com/HasutoSasaki/translate-cli/commits/master/?since=2025-06-23&until=2025-06-23)
+
+### Day 54: June 24, Tuesday
+
+**Today's Progress**:
+
+- translate-cli
+  - text の指定をフラグではなく、引数で指定できるように修正
+  - 不要なファイルを削除し、リファクタリングを行った
+- pomodoBar
+  - electron でバーにポモドーロタイマーを表示するアプリを作成中
+  - バーに表示するやり方がわからない。ので、引き続き作業
+
+**Thoughts**:
+
+- より使いやすさを求めて、フラグが不要と感じ、削除したら、より良くなった。
+- translate-cli のリファクタリングは、コードの可読性を向上させるために必要な作業だった。
+- electron でのアプリ開発を copilot に頼りすぎたため、改で自分で一から作ることにした
+
+**Link(s) to work**:
+
+- translate-cli
+  - [repository](https://github.com/HasutoSasaki/translate-cli)
+  - [commit](https://github.com/HasutoSasaki/translate-cli/commits/master/?since=2025-06-24&until=2025-06-24)
+- PomodoBar
+  - [repository](https://github.com/HasutoSasaki/PomodoBar)
+  - [commit](https://github.com/HasutoSasaki/PomodoBar/commits/master/?since=2025-06-24&until=2025-06-24)
+    ※まだ、整理できていないのでコミットはありません。
