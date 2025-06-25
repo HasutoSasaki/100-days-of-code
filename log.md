@@ -1158,3 +1158,24 @@ java の学習のため、環境構築（vscode + java）
 - PomodoBar
   - [repository](https://github.com/HasutoSasaki/PomodoBar)
   - [commit](https://github.com/HasutoSasaki/PomodoBar/commits/master/?since=2025-06-25&until=2025-06-25)
+
+### Day 56: June 26, Thursday
+
+**Today's Progress**:
+
+- Tiny TCP
+  - TCP のファイルを分割して、より理解しやすくした
+  - TCB（TCP Control Block）の構造体をざっくり理解した。
+    - どのような状態を持つかについて学んだ
+    - 次は、なぜその状態が必要なのか。という観点で見てみる
+
+**Thoughts**:
+
+- Tiny TCP のファイルを分割することで、コードの可読性が向上した。
+- 可読性が上がったことで、一つ一つの処理や構造体について、理解を向けられるようになった
+
+**Link(s) to work**:
+
+- Tiny TCP
+  - [repository](https://github.com/HasutoSasaki/TinyTCP)
+  - [commit](https://github.com/HasutoSasaki/TinyTCP/commits/master/?since=2025-06-26&until=2025-06-26)
