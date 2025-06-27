@@ -1168,14 +1168,44 @@ java の学習のため、環境構築（vscode + java）
   - TCB（TCP Control Block）の構造体をざっくり理解した。
     - どのような状態を持つかについて学んだ
     - 次は、なぜその状態が必要なのか。という観点で見てみる
+- At Coder
+  - AtCoder の問題を解くための練習を開始
+  - 初めての AtCoder で、問題の解き方や提出方法を学んだ
 
 **Thoughts**:
 
 - Tiny TCP のファイルを分割することで、コードの可読性が向上した。
 - 可読性が上がったことで、一つ一つの処理や構造体について、理解を向けられるようになった
+- AtCoder の問題を解くことで、プログラミングの楽しさを見出したい
 
 **Link(s) to work**:
 
 - Tiny TCP
   - [repository](https://github.com/HasutoSasaki/TinyTCP)
   - [commit](https://github.com/HasutoSasaki/TinyTCP/commits/master/?since=2025-06-26&until=2025-06-26)
+
+### Day 57: June 27, Friday
+
+**Today's Progress**:
+
+- At Coder
+  - 多重ループの問題を解いた
+- Tiny RDB
+  - ミニマムな RDB を作成するためのプロジェクトを開始
+  - まだ、学習中になります。まずは構造について理解を進めている
+- Tiny Redis Server
+  - Tiny RDB の学習を進めるために、Redis の基本的な構造を理解するためのプロジェクトを開始
+
+**Thoughts**:
+
+- AtCoder の問題を解くことで、プログラミングの楽しさを見出したい。まだ、解けないので頑張る
+- Tiny RDB と Tiny Redis Server の学習を通じて、データベースの基本的な構造や動作を理解していきたい。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- Tiny RDB
+  - [repository](https://github.com/HasutoSasaki/TinyRDB)
+- Tiny Redis Server
+  - [repository](https://github.com/HasutoSasaki/TinyRedisServer)
