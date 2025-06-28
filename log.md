@@ -1209,3 +1209,35 @@ java の学習のため、環境構築（vscode + java）
   - [repository](https://github.com/HasutoSasaki/TinyRDB)
 - Tiny Redis Server
   - [repository](https://github.com/HasutoSasaki/TinyRedisServer)
+
+### Day 58: June 28, Saturday
+
+**Today's Progress**:
+
+- At Coder
+  - ABC の A 問題を 2 問解いた
+- Tiny Redis Server
+  - TCP の仕組みについて新たに学んだ。
+  - バイトストリームというデータの境界を区別しないバイトデータの扱いについて学んだ。
+  - データのシリアル化とデシリアル化について学んだ。
+  - Linux 環境構築のため、Dockerfile を作成
+  - C のコンパイルを実行方法を学んだ。
+- speak-hub
+  - 今後学習で学んだことを勉強会で発表するため、複数のスライドを管理する場所を用意
+
+**Thoughts**:
+
+- AtCoder の問題を解くことで、プログラミングの楽しさを見出したい。まだ、解けないので頑張る
+- Tiny Redis Server の学習を通じて、TCP の仕組みやバイトストリームの扱い、データのシリアル化とデシリアル化について理解を深めることができた。
+- speak-hub のスライドについて、まだビルドを試してないので近々試してみたい。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- Tiny Redis Server
+  - [repository](https://github.com/HasutoSasaki/TinyRedisServer)
+  - [commit](https://github.com/HasutoSasaki/TinyRedisServer/commits/master/?since=2025-06-28&until=2025-06-28)
+  - speak-hub
+  - [repository](https://github.com/HasutoSasaki/speak-hub)
+  - [commit](https://github.com/HasutoSasaki/speak-hub/commits/master/?since=2025-06-28&until=2025-06-28)
