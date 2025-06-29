@@ -1271,3 +1271,25 @@ java の学習のため、環境構築（vscode + java）
 - speak-hub
   - [repository](https://github.com/HasutoSasaki/speak-hub)
   - [commit](https://github.com/HasutoSasaki/speak-hub/commits/master/?since=2025-06-29&until=2025-06-29)
+
+### Day 60: June 30, Monday
+
+**Today's Progress**:
+
+- At Coder
+  - A 問題 150 点配点ものを解いた
+- gotour
+  - web crawler の実装を学習
+  - 並行処理を駆使して、複数の URL を同時にクロールする方法を学んだ
+
+**Thoughts**:
+
+- A 問題でも、150 点代だと少し悩むことがあるので、まだまだ精進が必要だと感じた。
+- gotour の web crawler の実装を学ぶことで、Go 言語の並行処理の強力な機能を活用できることを実感した。しかし、まだ非同期処理の理解が浅いのと、chanel の使い方が不十分なので、もう少し学習が必要。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- gotour
+  - [repository](https://github.com/HasutoSasaki/gotour)
