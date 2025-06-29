@@ -1241,3 +1241,33 @@ java の学習のため、環境構築（vscode + java）
   - speak-hub
   - [repository](https://github.com/HasutoSasaki/speak-hub)
   - [commit](https://github.com/HasutoSasaki/speak-hub/commits/master/?since=2025-06-28&until=2025-06-28)
+
+### Day 59: June 29, Sunday
+
+**Today's Progress**:
+
+- At Coder
+  - ABC の A 問題 2 問,B 問題を 1 問解いた
+- Tiny Redis Server
+  - C++ で TCP サーバーとクライアントを実装
+  - socket で初期化。bind でポートを指定し、listen で接続待ち状態にする
+  - accept で接続を受け入れ、send と recv でデータの送受信を行う
+  - close で接続を終了する
+- speak-hub
+  - TCP サーバーについて学んだことをスライドにまとめた
+
+**Thoughts**:
+
+- AtCoder の問題を解く際に、今までランタイムエラーになっていたので、python の書き方自体を見直す必要がある。
+- TCP サーバーについて学んだことをスライドにまとめたことで、理解が深まった。特に、socket の初期化や接続の受け入れ、データの送受信の流れを理解できた。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- Tiny Redis Server
+  - [repository](https://github.com/HasutoSasaki/TinyRedisServer)
+  - [commit](https://github.com/HasutoSasaki/TinyRedisServer/commits/master/?since=2025-06-29&until=2025-06-29)
+- speak-hub
+  - [repository](https://github.com/HasutoSasaki/speak-hub)
+  - [commit](https://github.com/HasutoSasaki/speak-hub/commits/master/?since=2025-06-29&until=2025-06-29)
