@@ -1327,3 +1327,35 @@ java の学習のため、環境構築（vscode + java）
   - [repository](https://github.com/HasutoSasaki/TinyZipZap)
 - openapi-typescript
   - [PR](https://github.com/openapi-ts/openapi-typescript/pull/2331)
+
+### Day 62: July 2, Wednesday
+
+**Today's Progress**:
+
+- At Coder
+  - A 問題 100 点配点ものを解いた
+  - B 問題 250 点配点にチャレンジしたが、まだ解けなかった。
+    - やることは理解したが、コードで再現するのができなかった。
+- PomodoBar
+  - タイマー完了時に、sound を鳴らす設定追加
+  - ボタンのテキスト更新を修正
+- cameraApp
+  - 状態管理のライブラリを調査
+
+**Thoughts**:
+
+- AtCoder の A 問題を解くことで、基本的なアルゴリズムやデータ構造の理解が深まった。しかし、B 問題はまだ難しく感じたので、もう少し練習が必要。
+- PomodoBar のタイマー完了時に sound を鳴らす設定を追加したことで、より実用的なアプリになった。
+- 状態管理のライブラリを調査したところ、jotai と zustand が良さそうだった。だが、改めてアプリに状態管理が必要なのか
+  考える必要があると感じた。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- PomodoBar
+  - [repository](https://github.com/HasutoSasaki/PomodoBar)
+  - [commit](https://github.com/HasutoSasaki/PomodoBar/commits/master/?since=2025-07-02&until=2025-07-02)
+- cameraApp
+  - [repository](https://github.com/HasutoSasaki/cameraApp)
+  - 調査のみのため、commit なし
