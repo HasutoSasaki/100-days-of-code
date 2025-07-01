@@ -1293,3 +1293,37 @@ java の学習のため、環境構築（vscode + java）
   - リポジトリなし
 - gotour
   - [repository](https://github.com/HasutoSasaki/gotour)
+
+### Day 61: July 1, Tuesday
+
+**Today's Progress**:
+
+- At Coder
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点にチャレンジしたが、まだ理解できずだった。
+- openapi-typescript-and-nuxt3-example
+  - openapi-typescript の PR を更新した
+- Tiny Redis Server
+  - リクエスト、レスポンスリクエストについてを学習
+- Tiny ZipZap
+  - lz77 アルゴリズムを学習
+
+**Thoughts**:
+
+- AtCoder の A 問題を解くことで、基本的なアルゴリズムやデータ構造の理解が深まった。しかし、B 問題はまだ難しく感じたので、もう少し練習が必要。
+- openapi-typescript に PR を立てたが、不要なコミットがあるためメンテナーに確認をする必要がある。
+- ワンリクエスト関数というもので、単なる read,write ではなく、all-read,all-write のような関数を実装することを
+- read/write の通常の状況では、要求されたバイト数よりも少ないバイト数を返す可能性があることを学んだ
+- lz77 アルゴリズムのとは、データの繰り返しを利用して圧縮する手法で、データのパターンを見つけて効率的に圧縮することができる。ことを学んだ。次はコードベースで実装し、理解を深めたい。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- Tiny Redis Server
+  - [repository](https://github.com/HasutoSasaki/TinyRedisServer)
+  - 学習のみのため、commit なし
+- Tiny ZipZap
+  - [repository](https://github.com/HasutoSasaki/TinyZipZap)
+- openapi-typescript
+  - [PR](https://github.com/openapi-ts/openapi-typescript/pull/2331)
