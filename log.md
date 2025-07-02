@@ -1359,3 +1359,27 @@ java の学習のため、環境構築（vscode + java）
 - cameraApp
   - [repository](https://github.com/HasutoSasaki/cameraApp)
   - 調査のみのため、commit なし
+
+### Day 63: July 3, Thursday
+
+**Today's Progress**:
+
+- At Coder
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点にチャレンジし、基本的なアルゴリズムは考えれた。が細かいところのコード再現ができなかった。
+- cameraApp
+  - ディレクトリ構成を見直して、components ディレクトリをリファクタリング
+  - components を function に統一
+
+**Thoughts**:
+
+- AtCoder の A 問題はかなり慣れてきた。B 問題も少しずつ自分で理解できるようになってきた。
+- cameraApp のディレクトリ構成を見直すことで、コードの可読性が向上した。特に、components ディレクトリをリファクタリングしたことで、各コンポーネントの役割が明確になった。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- cameraApp
+  - [repository](https://github.com/HasutoSasaki/cameraApp)
+  - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-03&until=2025-07-03)
