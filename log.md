@@ -1383,3 +1383,26 @@ java の学習のため、環境構築（vscode + java）
 - cameraApp
   - [repository](https://github.com/HasutoSasaki/cameraApp)
   - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-03&until=2025-07-03)
+
+### Day 64: July 4, Friday
+
+**Today's Progress**:
+
+- At Coder
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点にチャレンジしたが後少しのとこで解けなかった。
+- cameraApp
+  - カメラ上部の toolbar のボタンを toggle できるようにした(機能はまだ実装していない)
+
+**Thoughts**:
+
+- AtCoder の A 問題はかなり慣れてきた。B 問題も少しずつ自分で理解できるようになってきた。
+- cameraApp のカメラ上部の toolbar のボタンを toggle できるようにしたことで、ユーザーインターフェースの操作性が向上した。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- cameraApp
+  - [repository](https://github.com/HasutoSasaki/cameraApp)
+  - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-04&until=2025-07-04)
