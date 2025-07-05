@@ -1406,3 +1406,27 @@ java の学習のため、環境構築（vscode + java）
 - cameraApp
   - [repository](https://github.com/HasutoSasaki/cameraApp)
   - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-04&until=2025-07-04)
+
+### Day 65: July 5, Saturday
+
+**Today's Progress**:
+
+- At Coder
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点にチャレンジしたが、まだ解けなかった。が考え方は理解できた。
+- aws-ass-study
+  - aws ASS 試験の学習のために、terraform を使ったインフラ構築の演習を行った。
+  - s3 のバケット作成を行なった。
+
+**Thoughts**:
+
+- AtCoder の A 問題はかなり慣れてきた。B 問題も少しずつ自分で理解できるようになってきた。
+- aws-ass-study では、terraform を使ったインフラ構築の演習を通じて、AWS のリソース管理についての理解が深まった。特に、s3 のバケット作成を行なったことで、実際のインフラ構築における手順を学ぶことができた。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- aws-ass-study
+  - [repository](https://github.com/HasutoSasaki/aws-ass-study)
+  - [commit](https://github.com/HasutoSasaki/aws-ass-study/commits/master/?since=2025-07-05&until=2025-07-05)
