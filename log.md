@@ -1430,3 +1430,26 @@ java の学習のため、環境構築（vscode + java）
 - aws-ass-study
   - [repository](https://github.com/HasutoSasaki/aws-ass-study)
   - [commit](https://github.com/HasutoSasaki/aws-ass-study/commits/master/?since=2025-07-05&until=2025-07-05)
+
+### Day 66: July 6, Sunday
+
+**Today's Progress**:
+
+- At Coder
+  - A 問題 100 点配点ものを解いた
+  - B 問題 250 点配点にチャレンジしたが、まだ解けなかった。考え方も難しく。回答を見ないと理解できなかった。
+- aws-ass-study
+  - EC2 のサンプルインスタンス作成を terraform で行った。
+
+**Thoughts**:
+
+- AtCoder の A 問題はかなり慣れてきた。B 問題も少しずつ自分で理解できるようになってきたが、250 点問題は少し難しい。
+- EC2 のインスタンス作成を、コンソールと terraform の両方で行ったことで、インフラ構築の基礎をなんとなく学ぶことができた。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- aws-ass-study
+  - [repository](https://github.com/HasutoSasaki/aws-ass-study)
+  - [commit](https://github.com/HasutoSasaki/aws-ass-study/commits/master/?since=2025-07-05&until=2025-07-05)
