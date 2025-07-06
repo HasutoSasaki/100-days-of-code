@@ -1453,3 +1453,26 @@ java の学習のため、環境構築（vscode + java）
 - aws-ass-study
   - [repository](https://github.com/HasutoSasaki/aws-ass-study)
   - [commit](https://github.com/HasutoSasaki/aws-ass-study/commits/master/?since=2025-07-05&until=2025-07-05)
+
+### Day 67: July 7, Monday
+
+**Today's Progress**:
+
+- At Coder
+  - A 問題 100 点配点ものを解いた
+- aws-ass-study
+  - sam を使って、lambda 関数と API Gateway の設定を行った。
+
+**Thoughts**:
+
+- A 問題は余裕になった。
+- sam を使って、lambda 関数と API Gateway の設定ができることを学んだ。手順が多かったりしてまだあまり理解できていない。
+- 権限を最小限で少しづつ付けていくのが大変だった。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- aws-ass-study
+  - [repository](https://github.com/HasutoSasaki/aws-ass-study)
+  - [commit](https://github.com/HasutoSasaki/aws-ass-study/commits/master/?since=2025-07-05&until=2025-07-05)
