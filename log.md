@@ -1501,3 +1501,30 @@ java の学習のため、環境構築（vscode + java）
 - cameraApp
   - [repository](https://github.com/HasutoSasaki/cameraApp)
   - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-07&until=2025-07-07)
+
+### Day 69: July 9, Wednesday
+
+**Today's Progress**:
+
+- At Coder ABC395
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、解説を見なければ解けなかった。
+- cameraApp
+  - 傾きセンターの ON/OFF 機能を実装した。
+  - 他、関数、変数の命名を適切なものに修正した。
+
+**Thoughts**:
+
+- B 問題でここまでわからないのは、初めてだった。二次元配列の苦手意識がある。
+- cameraApp
+  - props のバケツリレーになってしまったが、store を使うか検討する必要がある。
+  - 命名が無駄に長いものがいくつかあるので、気づいた時に直していきたい
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- cameraApp
+
+  - [repository](https://github.com/HasutoSasaki/cameraApp)
+  - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-07&until=2025-07-07)
