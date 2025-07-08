@@ -1474,5 +1474,30 @@ java の学習のため、環境構築（vscode + java）
 - At Coder
   - リポジトリなし
 - aws-ass-study
+
   - [repository](https://github.com/HasutoSasaki/aws-ass-study)
   - [commit](https://github.com/HasutoSasaki/aws-ass-study/commits/master/?since=2025-07-05&until=2025-07-05)
+
+  ### Day 68: July 8, Tuesday
+
+**Today's Progress**:
+
+- At Coder
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点を解いた。なんとなく解き方はひらめいても、python での実装が難しかった。
+- cameraApp
+  - 傾きセンサー機能が機能しなくなっていたため、修正した。
+
+**Thoughts**:
+
+- A 問題は余裕になった。B 問題は、考え方より python 自体の書き方を学ぶ方が良いかもしれない。
+- cameraApp
+  - expo-sensors の公式を見たらすぐわかったことだったので改めて公式に戻ることの大切さを学んだ。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- cameraApp
+  - [repository](https://github.com/HasutoSasaki/cameraApp)
+  - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-07&until=2025-07-07)
