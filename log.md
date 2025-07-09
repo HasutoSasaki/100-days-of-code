@@ -1528,3 +1528,31 @@ java の学習のため、環境構築（vscode + java）
 
   - [repository](https://github.com/HasutoSasaki/cameraApp)
   - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-07&until=2025-07-07)
+
+### Day 70: July 10, Thursday
+
+**Today's Progress**:
+
+- At Coder ABC395
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、sort の処理を深く考えすぎた
+- cameraApp
+  - カメラレンダリング component が、cameraLayout のような役割をしたいてたため、cameraLayout に集約した。
+  - gridComponent を作成し、カメラのグリッド表示を実装した。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、sort の処理を深く考えすぎてしまった。組み込み関数を使うことを忘れていた。
+  - 複数の入力を配列で受け取るときは、[input().strip() for _ in range(n)] のようにリスト内包表記を使うと良い。
+- cameraApp
+  - cameraLayout に集約したことで、コードの可読性が向上した。
+  - gridComponent を作成し、カメラのグリッド表示を実装したことで、ユーザーインターフェースがより使いやすくなった。次回はカスタムグリッド機能ということで、自分で手書きできるようにする
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- cameraApp
+  - [repository](https://github.com/HasutoSasaki/cameraApp)
+  - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-09&until=2025-07-09)
