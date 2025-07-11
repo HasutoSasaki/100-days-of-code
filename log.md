@@ -1556,3 +1556,30 @@ java の学習のため、環境構築（vscode + java）
 - cameraApp
   - [repository](https://github.com/HasutoSasaki/cameraApp)
   - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-09&until=2025-07-09)
+
+### Day 71: July 11, Friday
+
+**Today's Progress**:
+
+- At Coder ABC395
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、まだ解けなかった。
+- cameraApp
+  - カメラのグリッド表示の toggle 機能を実装した。
+  - 撮影中に、カメラに指で線を描ける機能を追加するために、処理を書いたがエラーが出てしまい、push できなかった。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、まだ解けなかった。3 重ループに辿り着けずに、解けなかった。解説で理解はできた。
+- cameraApp
+  - カメラのグリッド表示の toggle 機能を実装したことで、ユーザーインターフェースがより使いやすくなった。
+  - 撮影中にカメラに指で線を描ける機能を追加するための処理を書いたが、エラーが出てしまい、push できなかった。次回はエラーを解決して、機能を実装したい。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- cameraApp
+  - [repository](https://github.com/HasutoSasaki/cameraApp)
+  - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-10&until=2025-07-10)
