@@ -1583,3 +1583,30 @@ java の学習のため、環境構築（vscode + java）
 - cameraApp
   - [repository](https://github.com/HasutoSasaki/cameraApp)
   - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-10&until=2025-07-10)
+
+### Day 72: July 12, Saturday
+
+**Today's Progress**:
+
+- At Coder ABC392
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、まだ解けなかった。
+- CameraApp
+  - 撮影中にカメラ画面上に、線を描ける機能を実装した。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、まだ解けなかった。解説を見て解けた。input()の値を正しく受け取る方法がまず理解できていないのを感じた。
+- CameraApp
+  - react native には、UI thread と JS thread があることを学んだ。
+  - UI thread は、ユーザーインターフェースの描画やアニメーションを担当し、JS thread は JavaScript の実行を担当する。
+  - PR を発行したが、まだマージされていない。copilot のレビューを受けて、`Drawing`の処理がある`RenderDrawingOverlay`のコード数が多いため次回はリファクタリングを行う。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- CameraApp
+  - [repository](https://github.com/HasutoSasaki/cameraApp)
+  - [PR](https://github.com/HasutoSasaki/cameraApp/pull/2)
