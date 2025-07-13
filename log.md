@@ -1639,3 +1639,28 @@ java の学習のため、環境構築（vscode + java）
 - CameraApp
   - [repository](https://github.com/HasutoSasaki/cameraApp)
   - [PR](https://github.com/HasutoSasaki/cameraApp/pull/2)
+
+### Day 74: July 14, Monday
+
+**Today's Progress**:
+
+- At Coder ABC390
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、まだ解けなかった。
+- CameraApp
+- drawing の処理をリファクタリングした。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、まだ解けなかった。解説を見て、コードを読んで理解する必要がある。
+- CameraApp
+  - drawing の処理をリファクタリングしたことで、コードの可読性が向上した。component の分割するイメージが湧いた
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- CameraApp
+  - [repository](https://github.com/HasutoSasaki/cameraApp)
+  - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-14&until=2025-07-14)
