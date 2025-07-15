@@ -1664,3 +1664,29 @@ java の学習のため、環境構築（vscode + java）
 - CameraApp
   - [repository](https://github.com/HasutoSasaki/cameraApp)
   - [commit](https://github.com/HasutoSasaki/cameraApp/commits/master/?since=2025-07-14&until=2025-07-14)
+
+### Day 75: July 15, Tuesday
+
+**Today's Progress**:
+
+- At Coder ABC389
+  - A 問題 100 点配点ものを解いた
+  - B 問題 150 点配点に挑戦したが、ほぼ解けた。
+- TinyZipZap
+  - rle pkg のコードをベストプラクティクスに従ってリファクタリングした。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、ほぼ解けた。一定の値のうち回し続けるというのを python でどう実装するのか悩んでしまった。
+- TinyZipZap
+  - GO を一度きちんと学ためにベストプラクティクスに従ってリファクタリングした。
+  - まだ読みきれていないので、もっと学習が必要。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- TinyZipZap
+  - [repository](https://github.com/HasutoSasaki/TinyZipZap)
+  - [commit](https://github.com/HasutoSasaki/TinyZipZap/commits/master/?since=2025-07-15&until=2025-07-15)
