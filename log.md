@@ -1690,3 +1690,30 @@ java の学習のため、環境構築（vscode + java）
 - TinyZipZap
   - [repository](https://github.com/HasutoSasaki/TinyZipZap)
   - [commit](https://github.com/HasutoSasaki/TinyZipZap/commits/master/?since=2025-07-15&until=2025-07-15)
+
+### Day 76: July 16, Wednesday
+
+**Today's Progress**:
+
+- At Coder ABC388
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、解説を見ないと解けなかった。
+- TinyZipZap
+  - lz77 圧縮アルゴリズムを実装した。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、解説を見ないと解けなかった。
+  - ループが重なる系だと、どうしても考えがちになってしまう。
+- TinyZipZap
+  - lz77 圧縮アルゴリズムを実装したことで、データ圧縮の理解が深まった。
+  - Go のベストプラクティスに則っていないと思うので、次回はリファクタリングを行いたい。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- TinyZipZap
+  - [repository](https://github.com/HasutoSasaki/TinyZipZap)
+  - [commit](https://github.com/HasutoSasaki/TinyZipZap/commits/master/?since=2025-07-16&until=2025-07-16)
