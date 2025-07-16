@@ -1717,3 +1717,33 @@ java の学習のため、環境構築（vscode + java）
 - TinyZipZap
   - [repository](https://github.com/HasutoSasaki/TinyZipZap)
   - [commit](https://github.com/HasutoSasaki/TinyZipZap/commits/master/?since=2025-07-16&until=2025-07-16)
+
+### Day 77: July 17, Thursday
+
+**Today's Progress**:
+
+- At Coder ABC387
+  - A 問題 100 点配点ものを解いた
+  - B 問題 150 点配点に挑戦したが、解説を見ないと解けなかった。
+- TinyZipZap
+  - huffman Go のマップ反復順序が不定のため、修正を行なった。結果テストが通るようになった。
+
+**Thoughts**:
+
+- At Coder
+
+  - B 問題は、解説を見ないと解けなかった。
+
+- TinyZipZap
+  - huffman Go のマップ反復順序が不定のため、修正を行なった。結果テストが通るようになった。
+  - 問題として、Go のマップ反復順序が不定のため、同じデータでも実行毎に異なる Huffman 木が構築され、圧縮時と展開時で異なる符号テーブルが生成されていた。
+  - 修正として、文字を ASCII 順にソートしてからヒープに追加することで、常に同じ順序で Huffman 木を構築できるようになり、圧縮・展開の整合性が保たれた。
+  - 結果　"hello world" → "drllo eowlh" のような文字化けが解消され、正しく元データが復元される。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- TinyZipZap
+  - [repository](https://github.com/HasutoSasaki/TinyZipZap)
+  - [commit](https://github.com/HasutoSasaki/TinyZipZap/commits/master/?since=2025-07-17&until=2025-07-17)
