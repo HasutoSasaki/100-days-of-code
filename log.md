@@ -1747,3 +1747,29 @@ java の学習のため、環境構築（vscode + java）
 - TinyZipZap
   - [repository](https://github.com/HasutoSasaki/TinyZipZap)
   - [commit](https://github.com/HasutoSasaki/TinyZipZap/commits/master/?since=2025-07-17&until=2025-07-17)
+
+### Day 78: July 18, Friday
+
+**Today's Progress**:
+
+- At Coder ABC386
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、解説を見ないと解けなかった。
+- web-service-gin:go tutorial
+  - gin を使って、簡単な web サービスの実装チュートリアルを開始
+  - http リクエストのルーティングやハンドリングを学んだ
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、解説を見ないと解けなかった。
+- web-service-gin:go tutorial
+  - gin を使って、簡単な web サービスの実装チュートリアルを開始したことで、Go 言語の web フレームワークの使い方をなんとなく学ぶことができた。今後も引き続き学習を進めていきたい。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- web-service-gin:go tutorial
+  - [repository](https://github.com/HasutoSasaki/web-service-gin)
+  - [commit](https://github.com/HasutoSasaki/web-service-gin/commits/main/?since=2025-07-18&until=2025-07-18)
