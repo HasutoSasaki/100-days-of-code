@@ -1773,3 +1773,21 @@ java の学習のため、環境構築（vscode + java）
 - web-service-gin:go tutorial
   - [repository](https://github.com/HasutoSasaki/web-service-gin)
   - [commit](https://github.com/HasutoSasaki/web-service-gin/commits/main/?since=2025-07-18&until=2025-07-18)
+
+### Day 79: July 19, Saturday
+
+**Today's Progress**:
+
+- At Coder ABC385
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、解説を見ないと解けなかった。
+- TinyRedisServer
+  - write,read の処理を all-write,all-read のような関数にし、client,server それぞれ実装した。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、解説を見ないと解けなかった。
+- TinyRedisServer
+  - ループで回す必要がある。なぜなら一度に全てのデータを読み書きすることはできない場合があるため、データを分割して処理する必要がある。
+    　- simple text ではなく、バイナリデータを使う理由は、長さが変わらないためである。
