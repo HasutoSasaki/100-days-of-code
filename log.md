@@ -1791,3 +1791,37 @@ java の学習のため、環境構築（vscode + java）
 - TinyRedisServer
   - ループで回す必要がある。なぜなら一度に全てのデータを読み書きすることはできない場合があるため、データを分割して処理する必要がある。
     　- simple text ではなく、バイナリデータを使う理由は、長さが変わらないためである。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- TinyRedisServer
+  - [repository](https://github.com/HasutoSasaki/TinyRedisServer)
+  - [commit](https://github.com/HasutoSasaki/TinyRedisServer/commits/master/?since=2025-07-19&until=2025-07-19)
+
+### Day 80: July 20, Sunday
+
+**Today's Progress**:
+
+- At Coder ABC384
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、解説を見ないと解けなかった。
+- web-service-gin:go tutorial
+  - PUT,DELETE,query などの HTTP メソッドを使ったルーティングを学んだ
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、解説を見ないと解けなかった。
+  - 条件分岐を問題文から適切に読み取ることができなかった。
+- web-service-gin:go tutorial
+  - PUT,DELETE,query などの HTTP メソッドを使ったルーティングを gin で実装することで、Go 言語の web フレームワークの使い方を前より理解できた。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- web-service-gin:go tutorial
+  - [repository](https://github.com/HasutoSasaki/web-service-gin)
+  - [commit](https://github.com/HasutoSasaki/web-service-gin/commits/main/?since=2025-07-20&until=2025-07-20)
