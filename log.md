@@ -1825,3 +1825,30 @@ java の学習のため、環境構築（vscode + java）
 - web-service-gin:go tutorial
   - [repository](https://github.com/HasutoSasaki/web-service-gin)
   - [commit](https://github.com/HasutoSasaki/web-service-gin/commits/main/?since=2025-07-20&until=2025-07-20)
+
+### Day 81: July 21, Monday
+
+**Today's Progress**:
+
+- TinyRedisServer
+  - スレッドパターンと、イベントループの IO モデルの違いを学んだ。
+- openapi-typescript-and-nuxt3-example
+  - openapi-typescript の PR を更新した。
+
+**Thoughts**:
+
+- TinyRedisServer
+  - スレッドパターンと、イベントループの IO モデルの違いを学んだことで、非同期処理の理解が深まった。
+  - スレッドパターンは、複数のスレッドを使用して並行処理を行う方法で、各スレッドが独立して実行される。一方、イベントループの IO モデルは、単一のスレッドでイベントを処理し、非同期 IO を使用して効率的に処理を行う方法である。
+  - TinyRedisServer では、イベントループの IO モデルを使用して、非同期処理を実現している。これにより、複数のクライアントからのリクエストを効率的に処理できるようになっている。
+- openapi-typescript-and-nuxt3-example
+  - openapi-typescript の PR を更新したことで、main に入れ込む準備ができた。
+
+**Link(s) to work**:
+
+- TinyRedisServer
+  - [repository](https://github.com/HasutoSasaki/TinyRedisServer)
+  - コミットなし
+- openapi-typescript-and-nuxt3-example
+  - [repository](https://github.com/HasutoSasaki/openapi-typescript-and-nuxt3-example)
+  - [PR](https://github.com/openapi-ts/openapi-typescript/pull/2381)
