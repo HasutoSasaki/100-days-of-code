@@ -1852,3 +1852,30 @@ java の学習のため、環境構築（vscode + java）
 - openapi-typescript-and-nuxt3-example
   - [repository](https://github.com/HasutoSasaki/openapi-typescript-and-nuxt3-example)
   - [PR](https://github.com/openapi-ts/openapi-typescript/pull/2381)
+
+### Day 82: July 22, Tuesday
+
+**Today's Progress**:
+
+- At Coder ABC383
+  - A 問題 150 点配点ものを解いたが、解説を見ないと解けなかった。
+  - B 問題 250 点配点に挑戦したが、解説を見ても理解に時間がかかった。
+- TinyRedisServer
+- Readiness API を学んだ。主に、poll と epoll_wait の違いを理解した。それに関連して、select のデメリットも学んだ。
+
+**Thoughts**:
+
+- At Coder
+  - A,B 問題ともに、解説を見ないと解けなかった。特に、B 問題は理解するのに時間がかかった。
+- TinyRedisServer
+  - select のデメリットとして、ファイルディスクリプタの数に制限があることや、パフォーマンスが低下することを学んだ。
+  - readiness API はソケットには使えるが、ディスクには使えないことを学んだ。
+  - なぜかというと、ソケットにはバッファがあるので準備ができているかどうかを確認できるが、ディスクにはそのようなバッファがないため、準備ができているかどうかを確認することができない。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- TinyRedisServer
+  - [repository](https://github.com/HasutoSasaki/TinyRedisServer)
+  - 座学のみのため、コミットなし
