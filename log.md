@@ -1879,3 +1879,26 @@ java の学習のため、環境構築（vscode + java）
 - TinyRedisServer
   - [repository](https://github.com/HasutoSasaki/TinyRedisServer)
   - 座学のみのため、コミットなし
+
+### Day 83: July 23, Wednesday
+
+**Today's Progress**:
+
+- At Coder ABC382
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦し、解説なしで自力で解けた。
+- DB アルゴリズム勉強会の資料作成
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、解説なしで自力で解けた。少しずつ自分の力で解ける問題が増えてきた。
+- DB アルゴリズム勉強会の資料作成
+  - slidev を用いて、アニメーションを組み込んだ、わかりやすい資料を作成できそう。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- DB アルゴリズム勉強会の資料作成
+  - まだ作成中のため、リポジトリなし
