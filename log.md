@@ -1926,3 +1926,29 @@ java の学習のため、環境構築（vscode + java）
   - リポジトリなし
 - DB アルゴリズム勉強会の資料作成
   - まだ作成中のため、リポジトリなし
+
+### Day 85: July 25, Friday
+
+**Today's Progress**:
+
+- At Coder ABC380
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、解説を見ないと解けなかった。
+- DB アルゴリズム勉強会の資料作成
+  - To-do リストの説明などを component アニメーションを用いてわかりやすく説明できる資料を作成した。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、解説を見ないと解けなかった。
+- DB アルゴリズム勉強会の資料作成
+  - slidev を用いて、アニメーションを組み込んだ、わかりやすい資料を作成できた。
+  - To-do リストの説明などを component アニメーションを用いてわかりやすく説明できる資料を作成したことで、RDB の algorithms の理解が深まった。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- DB アルゴリズム勉強会の資料作成
+  - [repository](https://github.com/HasutoSasaki/DB-Algorithms-Presentation)
+  - 完成はしたが、まだ公開していない。
