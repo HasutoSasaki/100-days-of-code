@@ -1952,3 +1952,33 @@ java の学習のため、環境構築（vscode + java）
 - DB アルゴリズム勉強会の資料作成
   - [repository](https://github.com/HasutoSasaki/DB-Algorithms-Presentation)
   - 完成はしたが、まだ公開していない。
+
+### Day 86: July 26, Saturday
+
+**Today's Progress**:
+
+- At Coder ABC379
+  - A 問題 100 点配点ものを解いた
+  - B 問題 200 点配点に挑戦したが、解説を見ないと解けなかった。
+- design pattern dev
+  - design pattern の勉強を始めた。
+  - chain of responsibility , strategy pattern を学んだ。
+  - typScript ,Go での実装を行った。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は、解説を見ないと解けずやはり考えていることをコードに落とし込むのが難しい。
+- design pattern dev
+  - design pattern の勉強を始めたことで、既存のコードや新しいコードを設計する際に視野が広がる気がした。
+  - また、Go や TypeScript での実装を通じて、各言語の特性を活かした設計ができるようになりたい。
+  - chain of responsibility は元々似たようなのを作っていたので、理解しやすかった。
+  - strategy pattern は、オブジェクト指向プログラミングを実務で使わないのでユースケースのイメージがつきにくかった。が、知識としては入れておきたい。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- design pattern dev
+  - [repository](https://github.com/HasutoSasaki/design-pattern-dev)
+  - [commit](https://github.com/HasutoSasaki/design-pattern-dev/commits/main/?since=2025-07-26&until=2025-07-26)
