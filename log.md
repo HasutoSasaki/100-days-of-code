@@ -2009,3 +2009,28 @@ java の学習のため、環境構築（vscode + java）
 - design pattern dev
   - [repository](https://github.com/HasutoSasaki/design-pattern-dev)
   - [commit](https://github.com/HasutoSasaki/design-pattern-dev/commits/main/?since=2025-07-27&until=2025-07-27)
+
+### Day 88: July 28, Monday
+
+**Today's Progress**:
+
+- At Coder ABC377
+  - A 問題 100 点配点ものを解いた
+  - B 問題は解説を見ないと解けなかった。
+- compression-algorithms-lt
+  - RLE 圧縮アルゴリズムを Go で実装した。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は解説を見ないと解けなかった。やはりマス計算系が苦手である。
+- compression-algorithms-lt
+  - RLE 圧縮アルゴリズムを Go で実装したことで、データ圧縮の理解と Go 言語の使い方が深まった。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- compression-algorithms-lt
+  - [repository](https://github.com/HasutoSasaki/compression-algorithms-lt)
+  - [commit](https://github.com/HasutoSasaki/compression-algorithms-lt/commits/main/?since=2025-07-28&until=2025-07-28)
