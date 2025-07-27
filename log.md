@@ -1982,3 +1982,30 @@ java の学習のため、環境構築（vscode + java）
 - design pattern dev
   - [repository](https://github.com/HasutoSasaki/design-pattern-dev)
   - [commit](https://github.com/HasutoSasaki/design-pattern-dev/commits/main/?since=2025-07-26&until=2025-07-26)
+
+### Day 87: July 27, Sunday
+
+**Today's Progress**:
+
+- At Coder ABC378
+  - A 問題 100 点配点ものを解いた
+  - B 問題は時間がなくて解けなかった。
+- design pattern dev
+  - command pattern を学んだ。
+  - Go ,TypeScript での実装を行った。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は時間がなくて解けなかった。時間を確保して、問題に取り組む必要がある。
+- design pattern dev
+  - command pattern を学んだことで、コマンドの実行をオブジェクトとして扱うことができるようになった。
+  - Go や TypeScript での実装を通じて、各言語の特性を活かした設計ができるようになりたい。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- design pattern dev
+  - [repository](https://github.com/HasutoSasaki/design-pattern-dev)
+  - [commit](https://github.com/HasutoSasaki/design-pattern-dev/commits/main/?since=2025-07-27&until=2025-07-27)
