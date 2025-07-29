@@ -2034,3 +2034,24 @@ java の学習のため、環境構築（vscode + java）
 - compression-algorithms-lt
   - [repository](https://github.com/HasutoSasaki/compression-algorithms-lt)
   - [commit](https://github.com/HasutoSasaki/compression-algorithms-lt/commits/main/?since=2025-07-28&until=2025-07-28)
+
+### Day 89: July 29, Tuesday
+
+**Today's Progress**:
+
+- design pattern dev
+  - decorator , template method を学んだ。
+  - Go ,TypeScript での実装を行った。
+
+**Thoughts**:
+
+- design pattern dev
+  - decorator は、オブジェクトに動的に機能を追加することができるパターンで、特定の機能を持つオブジェクトを作成する際に便利である。
+  - template method は、アルゴリズムの骨組みを定義し、サブクラスで具体的な処理を実装するパターンで、コードの再利用性が向上する。
+  - Go や TypeScript での実装を通じて、各言語の特性を活かした設計ができるようになりたい。
+
+**Link(s) to work**:
+
+- design pattern dev
+  - [repository](https://github.com/HasutoSasaki/design-pattern-dev)
+  - [commit](https://github.com/HasutoSasaki/design-pattern-dev/commits/main/?since=2025-07-29&until=2025-07-29)
