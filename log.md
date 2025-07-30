@@ -2079,7 +2079,7 @@ java の学習のため、環境構築（vscode + java）
 - design pattern dev
 
   - observer の方は、フロントの開発でも使えそうなので興味が湧いた。aws の SNS のようなものを作るイメージ。
-  - iterator は、アルゴリズムを組みことが少ないので、あまり使う機会がないかもしれない。
+  - iterator は、アルゴリズムを組みことが少ないので、あまり使う機会がないかもしれない。けど面白いと感じた。
 
 - github-actions-dev
 
