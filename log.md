@@ -2055,3 +2055,47 @@ java の学習のため、環境構築（vscode + java）
 - design pattern dev
   - [repository](https://github.com/HasutoSasaki/design-pattern-dev)
   - [commit](https://github.com/HasutoSasaki/design-pattern-dev/commits/main/?since=2025-07-29&until=2025-07-29)
+
+### Day 90: July 30, Wednesday
+
+**Today's Progress**:
+
+- At Coder ABC376
+  - A 問題 150 点配点ものを解いた。
+  - B 問題は解説を見ても理解が難しかった。
+- design pattern dev
+  - observer , iterator を学んだ。
+  - Go ,TypeScript での実装を行った。
+- github-actions-dev
+  - github actions の勉強を始めた。
+  - 静的解析
+    - actionlint を使って、action yaml の静的解析を行った。
+    - actionlint を使うために、docker を触った。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は解説を見ても理解が難しかった。
+- design pattern dev
+
+  - observer の方は、フロントの開発でも使えそうなので興味が湧いた。aws の SNS のようなものを作るイメージ。
+  - iterator は、アルゴリズムを組みことが少ないので、あまり使う機会がないかもしれない。
+
+- github-actions-dev
+
+  - docker run に --rm オプションをつけることで、コンテナを実行後に自動的に削除されることを学んだ。これなら自由に検証できると感じた。
+  - 静的解析を行うことで、未然にエラーを防ぐことができるのでコスト削減につながると感じた。
+  - タイムアウトは絶対指定すべきというのを学んだ。理由はデフォルトだと 6 時間待つためである。
+  - shell の指定もできる。
+  - たまに落ちるテストは見逃さない。
+  - 高速に実行しましょうということで、5 - 10 分で終わるようにする。業務で入れれていないが、一つ基準を知れたのは良かった。
+  - スローテストの実行タイミングはずらす。クリーンに保つという観点で、どうしても減らせない場合は、スローテストを実行するタイミングをずらすこともある。トレードオフである。
+  - 同じブランチで動いている時は、自動キャンセルできるのもびっくり。提案する上で突っ込まれそうだったので知れて嬉しい。
+  - テストはチームの責任と書いてあり、チームみんなで同じ本を 1 - 2 冊読もうと書いてあった。
+    - これは非常に良いと感じた。会話がしやすくなるのではと感じた。
+  - github の CI は多くの場合、プルリクエスト時に実行される。
+
+- git udemy 学習
+  - git mv を使うことで、ファイルの移動やリネームで履歴を保持できることを学んだ。
+  - commit ハッシュは途中まででも機能するのを学んだ。
+    - 例えば、git diff 1234 abcd みたいな途中でも良い
