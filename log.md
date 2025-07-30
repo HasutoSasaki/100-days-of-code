@@ -2099,3 +2099,44 @@ java の学習のため、環境構築（vscode + java）
   - git mv を使うことで、ファイルの移動やリネームで履歴を保持できることを学んだ。
   - commit ハッシュは途中まででも機能するのを学んだ。
     - 例えば、git diff 1234 abcd みたいな途中でも良い
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- design pattern dev
+  - [repository](https://github.com/HasutoSasaki/design-pattern-dev)
+  - [commit](https://github.com/HasutoSasaki/design-pattern-dev/commits/main/?since=2025-07-30&until=2025-07-30)
+- github-actions-dev
+  - [repository](https://github.com/HasutoSasaki/github-actions-dev)
+  - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-07-30&until=2025-07-30)
+
+### Day 91: July 31, Thursday
+
+**Today's Progress**:
+
+- At Coder ABC375
+
+  - A 問題 100 点配点ものを解いた。
+  - B 問題は全て自力で解けた。
+
+- github-actions-dev
+  - github actions の勉強を続けた。
+  - debug-log や log のグループ化を学んだ。
+  - 不要な workflow の実行を避けるために移動するようにした。
+
+**Thoughts**:
+
+- At Coder
+  - B 問題は全て自力で解けた。少しずつ自分の力で解ける問題が増えてきた。
+- github-actions-dev
+  - debug-log や log のグループ化を学んだことで、ログの可読性が向上し、デバッグが容易になった。
+  - 不要な workflow の実行を避けるために移動するようにしたことで、CI の効率が向上した。
+
+**Link(s) to work**:
+
+- At Coder
+  - リポジトリなし
+- github-actions-dev
+  - [repository](https://github.com/HasutoSasaki/github-actions-dev)
+  - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-07-31&until=2025-07-31)
