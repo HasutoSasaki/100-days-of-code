@@ -2140,3 +2140,37 @@ java の学習のため、環境構築（vscode + java）
 - github-actions-dev
   - [repository](https://github.com/HasutoSasaki/github-actions-dev)
   - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-07-31&until=2025-07-31)
+
+### Day 92: August 1, Friday
+
+**Today's Progress**:
+
+- github-actions-dev
+  - github actions の勉強を続けた。
+  - multi dimension matrix.
+    - 漏れなく様々なパターンを検証できるが、組
+      み合わせが多くなりすぎないように注意。
+    - matrix workflow.
+    - share job data workflow.
+    - sequential jobs workflow.
+    - parallel jobs workflow.
+    - job summaries work flow.
+    - annotation demo work flow.
+    - シークレット情報、パスワードなどをログ出力時に mask する work flow 追加。
+
+**Thoughts**:
+
+- github-actions-dev
+  - multi dimension matrix を使うことで、様々なパターンを漏れなく検証できるが、組み合わせが多くなりすぎないように注意が必要である。
+  - matrix workflow を使うことで、複数の OS で簡単にテストを実行できるのは非常に便利である。
+  - share job data workflow は、テキストデータのみを共有できるため、バイナリデータの共有には注意が必要である。
+  - sequential jobs workflow は、逐次実行が必要なユースケースに対応できるため、非常に有用である。
+  - parallel jobs workflow は、順序の依存がない処理を並行して実行することで、CI の効率を向上させることができる。
+  - job summaries work flow は、実行結果をマークダウンで出力できるため、可読性が向上し、チーム全体での情報共有が容易になる。
+  - annotation demo work flow は、アノテーションを活用することでデバッグがしやすくなるため、開発効率が向上する。
+
+**Link(s) to work**:
+
+- github-actions-dev
+  - [repository](https://github.com/HasutoSasaki/github-actions-dev)
+  - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-08-01&until=2025-08-01)
