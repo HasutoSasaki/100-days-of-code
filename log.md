@@ -2174,3 +2174,28 @@ java の学習のため、環境構築（vscode + java）
 - github-actions-dev
   - [repository](https://github.com/HasutoSasaki/github-actions-dev)
   - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-08-01&until=2025-08-01)
+
+### Day 93: August 2, Saturday
+
+**Today's Progress**:
+
+- github-actions-dev
+  - github actions の勉強を続けた。
+  - environment variables, secrets の使い方を学んだ。
+  - cache の使い方を学んだ。
+  - artifact の使い方を学んだ。
+  - local actions, remote actions の使い方を学んだ。
+
+**Thoughts**:
+
+- github-actions-dev
+  - environment variables, secrets を使うことで、機密情報を安全に管理できるようになった。
+  - cache を使うことで、ビルド時間を短縮できることが分かった。また、OS 間で不具合が起きないように、key には OS のバージョンを含めることが重要である。
+  - artifact を使うことで、ビルド成果物を簡単に保存・共有できるようになった。
+  - local actions は同じリポジトリ内で定義されたアクションを使用することで、再利用性が向上し、remote actions は他のリポジトリからアクションをインポートして使用できるため、柔軟性が増す。
+
+**Link(s) to work**:
+
+- github-actions-dev
+  - [repository](https://github.com/HasutoSasaki/github-actions-dev)
+  - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-08-02&until=2025-08-02)
