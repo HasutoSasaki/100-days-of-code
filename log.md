@@ -2199,3 +2199,32 @@ java の学習のため、環境構築（vscode + java）
 - github-actions-dev
   - [repository](https://github.com/HasutoSasaki/github-actions-dev)
   - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-08-02&until=2025-08-02)
+
+### Day 94: August 3, Sunday
+
+**Today's Progress**:
+
+- github-actions-dev
+  - クリーンなリポジトリを維持するための方法
+  - Dependabot を使って、依存関係の更新を自動化する方法を学んだ。
+- design pattern dev
+  - visitor pattern を学んだ。
+
+**Thoughts**:
+
+- github-actions-dev
+  - クリーンなリポジトリを維持するための方法として、CONTRIBUTING.md や、CODE_OF_CONDUCT.md を用意する。
+  - クレデンシャルの混入を防ぐために、Secret Scanning で定期的にチェックする方法と、Push protection でプッシュ時にチェックする方法を学んだ。
+  - Dependabot を使うことで、依存関係の更新を自動化する方法を体系的に学べた。マージも自動化できるのは非常に便利である。ただし、CI がない状態だと信頼性が低いため、CI も導入すべきと感じた。ない場合は、パッチバージョンの更新のみを自動化するのが良い。と感じた。
+  - Dependabot は業務に取り入れたい。テンプレートリポジトリを作成しても、バージョンが古く使えないことがあったので、導入したい。
+- design pattern dev
+  - visitor pattern を学んだことで、オブジェクトの構造を変更せずに、オブジェクトに新しい操作を追加できることが分かった。
+
+**Link(s) to work**:
+
+- github-actions-dev
+  - [repository](https://github.com/HasutoSasaki/github-actions-dev)
+  - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-08-03&until=2025-08-03)
+- design pattern dev
+  - [repository](https://github.com/HasutoSasaki/design-pattern-dev)
+  - [commit](https://github.com/HasutoSasaki/design-pattern-dev/commits/main/?since=2025-08-03&until=2025-08-03)
