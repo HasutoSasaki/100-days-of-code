@@ -2228,3 +2228,29 @@ java の学習のため、環境構築（vscode + java）
 - design pattern dev
   - [repository](https://github.com/HasutoSasaki/design-pattern-dev)
   - [commit](https://github.com/HasutoSasaki/design-pattern-dev/commits/main/?since=2025-08-03&until=2025-08-03)
+
+### Day 95: August 4, Monday
+
+**Today's Progress**:
+
+- my-portfolio
+  - dependabot を導入した。
+- github-actions-dev
+  - Github Release を使って、リリースを自動化する方法を学んだ。
+
+**Thoughts**:
+
+- my-portfolio
+  - dependabot を導入したことで、依存関係の更新を検知することができるようになった。CI がないため、自動マージはできていないが、手動マージ運用で問題なければ自動化したい。
+- github-actions-dev
+  - Github Release を使うことで、リリースの自動化ができることが分かった。リリースの自動化は、開発の効率化に大きく貢献するため、業務でも取り入れたい。
+  - tag でリリースバージョンを管理することで、業務で活かせる気がした。
+
+**Link(s) to work**:
+
+- my-portfolio
+  - [repository](https://github.com/HasutoSasaki/my-portfolio)
+  - [commit](https://github.com/HasutoSasaki/my-portfolio/commits/main/?since=2025-08-04&until=2025-08-04)
+- github-actions-dev
+  - [repository](https://github.com/HasutoSasaki/github-actions-dev)
+  - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-08-04&until=2025-08-04)
