@@ -2254,3 +2254,31 @@ java の学習のため、環境構築（vscode + java）
 - github-actions-dev
   - [repository](https://github.com/HasutoSasaki/github-actions-dev)
   - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-08-04&until=2025-08-04)
+
+### Day 96: August 5, Tuesday
+
+**Today's Progress**:
+
+- github-actions-dev
+  - go のデモアプリをリリースするためのワークフローを作成した。
+  - リリースの自動化を行うために、GitHub Release を使用した。
+- backlog-mcp-server contribution
+  - milestone 関連の tool 開発中
+
+**Thoughts**:
+
+- github-actions-dev
+  - go のデモアプリをリリースするためのワークフローを作成したことで、CI/CD の理解が深まった。
+  - リリースの自動化を行うために、GitHub Release を使用した。自動化されることが便利であると同時に、かっこいいなと感じた。
+- backlog-mcp-server contribution
+  　　- コードの規則を見つつなので、まだコミットはできていないが、初めての貢献であるため、楽しみである。
+  - milestone 関連の tool 開発中であり、早く形にしたい。
+
+**Link(s) to work**:
+
+- github-actions-dev
+  - [repository](https://github.com/HasutoSasaki/github-actions-dev)
+  - [commit](https://github.com/HasutoSasaki/github-actions-dev/commits/main/?since=2025-08-05&until=2025-08-05)
+- backlog-mcp-server contribution
+  - [repository](https://github.com/HasutoSasaki/backlog-mcp-server)
+  - [PR](https://github.com/nulab/backlog-mcp-server/pull/16)
