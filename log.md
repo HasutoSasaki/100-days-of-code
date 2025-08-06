@@ -2302,3 +2302,20 @@ java の学習のため、環境構築（vscode + java）
   - [repository](https://github.com/HasutoSasaki/backlog-mcp-server)
   - [PR](https://github.com/nulab/backlog-mcp-server/pull/16)
   - [commit](https://github.com/HasutoSasaki/backlog-mcp-server/commits/feature/milestone-tools/?since=2025-08-06&until=2025-08-06)
+
+### Day 98: August 7, Thursday
+
+**Today's Progress**:
+
+- backlog-mcp-server contribution
+  - version/milestone の追加 tool を実装した。
+    **Thoughts**:
+- backlog-mcp-server contribution
+  - version/milestone の Add tool を実装したことで、Backlog API の使い方や、Backlog MCP のコードベースの理解が以前よりさらに深まった。
+  - design pattern が実際に使われているのを実感できた。
+
+**Link(s) to work**:
+
+- backlog-mcp-server contribution
+  - [repository](https://github.com/HasutoSasaki/backlog-mcp-server)
+  - [PR](https://github.com/nulab/backlog-mcp-server/pull/16)
