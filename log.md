@@ -2339,3 +2339,37 @@ java の学習のため、環境構築（vscode + java）
   - [repository](https://github.com/HasutoSasaki/backlog-mcp-server)
   - [PR](https://github.com/nulab/backlog-mcp-server/pull/16)
   - [commit](https://github.com/HasutoSasaki/backlog-mcp-server/commits/feature/milestone-tools/?since=2025-08-08&until=2025-08-08)
+
+### Day 100: August 9, Saturday
+
+**Today's Progress**:
+
+- backlog-mcp-server contribution
+  - version/milestone の削除 tool を実装した。(完了)
+  - version/milestone 全体にフォーマットを適用した。
+  - docsを更新。
+- go-playground
+  - Go を自由に触るようのリポジトリを作成した。
+  - 今日はfor文の練習をした。
+  - for文をしている中で、rune型について学んだ。
+
+**Thoughts**:
+
+- backlog-mcp-server contribution
+  - version/milestone の削除 tool を実装したこと削除系のtoolへの理解も深まった。
+  - version/milestone 全体を完成できたので嬉しい！
+  - PRを出したので、レビューを待つ。
+- go-playground
+  - 様々な ループの書き方を学んだことで、Go 言語のループ処理の理解が深まった。
+  - rune型という文字列を表す型があることを学んだ。これは、UTF-8 エンコーディングの文字を扱うために使用される。絵文字などの特殊な文字を扱う際に便利である。
+  - copilotにリポジトリ作成などやらせたら、コミットをまとめられてしまったので、気をつけたい。
+
+**Link(s) to work**:
+
+- backlog-mcp-server contribution
+  - [repository](https://github.com/HasutoSasaki/backlog-mcp-server)
+  - [PR](https://github.com/nulab/backlog-mcp-server/pull/16)
+  - [commit](https://github.com/HasutoSasaki/backlog-mcp-server/commits/feature/milestone-tools/?since=2025-08-09&until=2025-08-09)
+- go-playground
+  - [repository](https://github.com/HasutoSasaki/go-playground)
+  - [commit](https://github.com/HasutoSasaki/go-playground/commits/main/?since=2025-08-09&until=2025-08-09)
